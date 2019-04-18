@@ -240,6 +240,14 @@ section.discover h2 {
   -webkit-text-fill-color: transparent;
 }
 
+#team-photo {
+  padding: 25px 0;
+}
+
+#team-photo img {
+  width: 100%;
+}
+
 section.portfolio {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
