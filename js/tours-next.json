@@ -6,6 +6,10 @@
     "year": "2019",
     "time": "20:00",
     "timezone": "EST",
+    "buildingName": "McLennan Physical Laboratories",
+    "buildingCode": "MP",
+    "roomNumber": "102",
+    "address": "60 St. George Street",
     "abstract": "While astronomers can understand how galaxies grow and evolve by looking out into the cosmos, the history of our own Milky Way is something of a mystery. Our solar system’s position, embedded in the disk of the Milky Way, makes it difficult to understand how our Galaxy is changing on large scales. In this month’s AstroTour, I’ll explain how astronomers use measurements of nearby stars to extrapolate a complete picture of the Galaxy. This approach of using some stars to learn about the Galaxy as a whole can also be applied to understanding its history, through a process called ‘chemical tagging.’ I’ll discuss how I use this technique in my research to find stellar siblings, and how this can help us not only unpack the history of the Milky Way but also make predictions for its future.",
     "speakerInfo": "Natalie is a fourth year PhD student in the Department of Astronomy and Astrophysics at UofT, where she studies stellar chemistry and applications of clustering algorithms to high dimensional data. When she’s not in the office she can be found doing yoga, playing Dungeons and Dragons, and honing her archery skills."
 }
