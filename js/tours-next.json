@@ -1,15 +1,15 @@
 {
-    "title": "Galactic archaeology with stellar siblings",
-    "speaker": "Natalie Price-Jones",
-    "month": "February",
-    "day": "7",
-    "year": "2019",
-    "time": "20:00",
-    "timezone": "EST",
-    "buildingName": "McLennan Physical Laboratories",
-    "buildingCode": "MP",
-    "roomNumber": "102",
-    "address": "60 St. George Street",
-    "abstract": "While astronomers can understand how galaxies grow and evolve by looking out into the cosmos, the history of our own Milky Way is something of a mystery. Our solar system’s position, embedded in the disk of the Milky Way, makes it difficult to understand how our Galaxy is changing on large scales. In this month’s AstroTour, I’ll explain how astronomers use measurements of nearby stars to extrapolate a complete picture of the Galaxy. This approach of using some stars to learn about the Galaxy as a whole can also be applied to understanding its history, through a process called ‘chemical tagging.’ I’ll discuss how I use this technique in my research to find stellar siblings, and how this can help us not only unpack the history of the Milky Way but also make predictions for its future.",
-    "speakerInfo": "Natalie is a fourth year PhD student in the Department of Astronomy and Astrophysics at UofT, where she studies stellar chemistry and applications of clustering algorithms to high dimensional data. When she’s not in the office she can be found doing yoga, playing Dungeons and Dragons, and honing her archery skills."
+    "title": "Talk title",
+    "speaker": "Speaker name",
+    "month": "Month",
+    "day": "Day",
+    "year": "Year",
+    "time": "HH:MM",
+    "timezone": "Timezone",
+    "buildingName": "Building name",
+    "buildingCode": "Building code",
+    "roomNumber": "Room number",
+    "address": "Address",
+    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis justo eu nunc consectetur molestie. Nulla non feugiat justo. Fusce id efficitur purus. Nunc fermentum purus vitae elit faucibus, vel lobortis risus aliquam. Praesent suscipit dui eget fermentum auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis nibh in justo sollicitudin pharetra.",
+    "speakerInfo": "Sed ultrices odio lectus, vel iaculis felis tempor eu. Donec dignissim augue at gravida posuere. Mauris quis libero vitae sapien cursus scelerisque vitae quis velit. Proin non rhoncus sapien. Nulla non gravida tortor. Vestibulum ultrices tristique posuere. Donec id ultricies purus. Etiam ante augue, feugiat at blandit in, porttitor vitae ante."
 }
