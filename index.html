@@ -112,7 +112,7 @@
                         <h3>Spacetime Coordinates</h3>
                         <p><i class="far fa-calendar"></i> <span class="talk-date"></span><br/><span class="talk-time"></span></p>
                         <p><i class="fa fa-lg fa-map-marker"></i> <span class="talk-building"></span>, Room&nbsp;<span class="talk-room"></span><br/><span class="talk-address"></span><br/>Toronto, Ontario, Canada</p>
-                        <p><a href="#map" class="btn btn-outline js-scroll-trigger"><i class="fas fa-map-marked-alt"></i> Map</a></p>
+                        <p><a href="#mapModal" class="btn btn-outline" data-toggle="modal"><i class="fas fa-map-marked-alt"></i> Map</a></p>
                       </div>
                     </div>
                   </div>
@@ -130,6 +130,23 @@
         </div>
       </div>
     </header>
+
+    <!-- Map Modal -->
+    <div id="mapModal" class="modal fade" role="dialog" aria-hidden="true" aria-labelledby="mapModalLabel" tabindex="-1">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title"><i class="fa fa-map-marker"></i> Location</h1>
+            <i class="fa fa-2x fa-times close" data-dismiss="modal"></i>
+          </div>
+          <div class="modal-body">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.3890147929997!2d-79.40063834855974!3d43.66087867901846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34bf43351f69%3A0x36b6dd5f4f4ae5be!2sMcLennan+Physical+Laboratories%2C+Toronto%2C+ON!5e0!3m2!1sen!2sca!4v1546587848545" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+            <p><span class="talk-building"></span>, Room&nbsp;<span class="talk-room"></span><br/><span class="talk-address"></span><br/>Toronto, Ontario, Canada</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Map Modal -->
 
     <section class="discover bg-primary text-center" id="discover">
       <div class="container">
