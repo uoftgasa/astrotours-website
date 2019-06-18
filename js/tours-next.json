@@ -1,15 +1,15 @@
 {
-    "title": "Talk title",
-    "speaker": "Speaker name",
-    "month": "Month",
-    "day": "Day",
-    "year": "Year",
-    "time": "HH:MM",
-    "timezone": "Timezone",
-    "buildingName": "Building name",
-    "buildingCode": "Building code",
-    "roomNumber": "Room number",
-    "address": "Address",
-    "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis justo eu nunc consectetur molestie. Nulla non feugiat justo. Fusce id efficitur purus. Nunc fermentum purus vitae elit faucibus, vel lobortis risus aliquam. Praesent suscipit dui eget fermentum auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis nibh in justo sollicitudin pharetra.",
-    "speakerInfo": "Sed ultrices odio lectus, vel iaculis felis tempor eu. Donec dignissim augue at gravida posuere. Mauris quis libero vitae sapien cursus scelerisque vitae quis velit. Proin non rhoncus sapien. Nulla non gravida tortor. Vestibulum ultrices tristique posuere. Donec id ultricies purus. Etiam ante augue, feugiat at blandit in, porttitor vitae ante."
+    "title": "Stargazing from Chile: Observations of exotic supergiants from the Magellan Telescopes",
+    "speaker": "Anna O’Grady",
+    "month": "July",
+    "day": "4",
+    "year": "2019",
+    "time": "21:00",
+    "timezone": "EDT",
+    "buildingName": "Bahen Centre for Information Technology",
+    "buildingCode": "BA",
+    "roomNumber": "1160",
+    "address": "40 St. George Street",
+    "abstract": "High in the mountains of Chile, astronomers and observatory staff at the Las Campanas Observatory are making new discoveries every night. I’ll show you a typical ‘night’ in the life of an observing astronomer under a night sky isolated from city lights, and the many challenges we face. I’ll walk you through my two visits to the Magellan Telescopes at Las Campanas in the quest to understand the exotic subjects of my research: Thorne–Żytkow Objects – the strange and fascinating result of a collision between a red supergiant and a neutron star.",
+    "speakerInfo": "Anna O’Grady is a 3rd year graduate student at the Department of Astronomy and Astrophysics and Dunlap Institute at the University of Toronto. She received her BSc from Memorial University of Newfoundland. The primary focus of her research is on massive star evolution, with a particular interest in how eruptive and variable behaviour in massive stars influences their fates as supernovæ. She also enjoys photography, plays in the department Dungeons and Dragons group, and loves cats."
 }
