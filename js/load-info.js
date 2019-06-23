@@ -7,6 +7,7 @@ $.getJSON("js/tours-next.json", function(data) {
     $('.talk-building-code').text(data['buildingCode']);
     $('.talk-address').text(data['address']);
     $('.talk-room').text(data['roomNumber']);
+    $('.talk-map').attr('src', data['mapsrc']);
     $('.talk-abstract').text(data['abstract']);
     $('.talk-speaker-info').text(data['speakerInfo']);
 });
