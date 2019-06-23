@@ -1,3 +1,4 @@
+// Load general tour info
 $.getJSON("js/tours-next.json", function(data) {
     $('.talk-title').text(data['title']);
     $('.talk-speaker').text(data['speaker']);
@@ -10,4 +11,13 @@ $.getJSON("js/tours-next.json", function(data) {
     $('.talk-map').attr('src', data['mapsrc']);
     $('.talk-abstract').text(data['abstract']);
     $('.talk-speaker-info').text(data['speakerInfo']);
+});
+
+// Load FAQ contents
+$.getJSON("js/faq.json", function(data) {
+    $.each(data, function(index, element) {
+        console.log(element)
+        $('.faq-body').append("<h4>"+element['question']+"</h4>");
+        $('.faq-body').append("<p>"+element['answer']+"</p>");
+    });
 });
