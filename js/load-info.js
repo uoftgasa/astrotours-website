@@ -16,7 +16,6 @@ $.getJSON("js/tours-next.json", function(data) {
 // Load FAQ contents
 $.getJSON("js/faq.json", function(data) {
     $.each(data, function(index, element) {
-        console.log(element)
         $('.faq-body').append("<h4>"+element['question']+"</h4>");
         $('.faq-body').append("<p>"+element['answer']+"</p>");
     });
