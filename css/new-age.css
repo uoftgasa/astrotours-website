@@ -214,6 +214,11 @@ header.masthead .header-content h1 {
   }
 }
 
+#speaker-photo-wrapper {
+  max-width: 95vw;
+  padding: 30px;
+}
+
 section.discover {
   position: relative;
   padding: 100px 0;
