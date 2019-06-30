@@ -95,18 +95,25 @@
             </div>
           </div>
         </div>
-        <div id="headingTwo" class="collapse" data-parent="#accordion">
-          <div class="heading-wrapper">
+        <div id="headingTwo" class="collapse bg-darken" data-parent="#accordion">
+          <div class="heading-wrapper" style="padding-top: 100px;">
             <div class="container-fluid h-100">
               <div class="row h-100">
                 <div class="container-fluid my-auto">
+                  <div class="row">
+                    <div class="col">
+                      <div class="header-content mx-auto text-right" style="margin-bottom: 0; max-width: 75vw;">
+                        <p style="text-align: right;"><a class="btn" data-toggle="collapse" data-target="#headingOne">Close <i class="fas fa-times"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
                   <div class="row">
                     <div class="col-lg-7 my-auto">
                       <div class="header-content mx-auto">
                         <h1 class="talk-title"></h1>
                         <h3>Speaker: <span class="talk-speaker"></span></h3>
                         <p class="talk-abstract"></p>
-                        <p class="talk-speaker-info"></p>
+                        <p><a class="btn btn-outline" data-toggle="collapse" data-target="#headingThree">About the speaker</a></p>
                       </div>
                     </div>
                     <div class="col-lg-5 my-auto">
@@ -118,10 +125,33 @@
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="headingThree" class="collapse bg-darken" data-parent="#accordion">
+          <div class="heading-wrapper" style="padding-top: 100px;">
+            <div class="container-fluid h-100">
+              <div class="row h-100">
+                <div class="container-fluid my-auto">
                   <div class="row">
-                    <div class="col-lg-7 my-auto">
+                    <div class="col">
+                      <div class="float-right text-right">
+                        <p style="text-align: right;"><a class="btn" data-toggle="collapse" data-target="#headingTwo">Close <i class="fas fa-times"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col col-md-9 col-lg-6 mx-auto my-auto">
+                      <div class="mx-auto" style="max-width: 95vw; padding: 30px;">
+                        <img class="img-fluid" src="https://via.placeholder.com/720x480" alt="">
+                      </div>
+                    </div>
+                    <div class="col-lg-6 my-auto">
                       <div class="header-content mx-auto">
-                        <p><a class="btn btn-outline btn-xl" data-toggle="collapse" data-target="#headingOne"><i class="fas fa-angle-double-left"></i> Back</a></p>
+                        <h1 class="talk-speaker"></h1>
+                        <p class="talk-speaker-info"></p>
                       </div>
                     </div>
                   </div>
