@@ -37,19 +37,25 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#discover">Discover</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#activities">Activities</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+              <a id="home-nav" class="nav-link active disabled" data-toggle="collapse" data-target="#headingOne">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Archive</a>
+              <a id="next-tour-nav" class="nav-link" data-toggle="collapse" data-target="#headingTwo">Next tour</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#location">Location</a>
+              <a id="discover-nav" class="nav-link" data-toggle="collapse" data-target="#discover">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a id="faq-nav" class="nav-link" data-toggle="collapse" data-target="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a id="team-nav" class="nav-link" data-toggle="collapse" data-target="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a id="archive-nav" class="nav-link" data-toggle="collapse" data-target="#archive">Archive</a>
+            </li>
+            <li class="nav-item">
+              <a id="location-nav" class="nav-link" data-toggle="collapse" data-target="#location">Location</a>
             </li>
           </ul>
         </div>
@@ -67,7 +73,7 @@
                     <h3 class="mb-3">Next tour:</h3>
                     <h1 class="mb-3 talk-title"></h1>
                     <h3 class="mb-5"><span class="talk-date"></span></h3>
-                    <a class="btn btn-outline btn-xl collapsed" data-toggle="collapse" data-target="#headingTwo">More Details</a>
+                    <a id="next-tour-btn" class="btn btn-outline btn-xl collapsed" data-toggle="collapse" data-target="#headingTwo">More Details</a>
                   </div>
                 </div>
                 <div class="col-lg-5 my-auto">
@@ -103,7 +109,7 @@
                   <div class="row">
                     <div class="col-md-10 offset-md-1">
                       <div class="header-content float-right text-right" style="margin-bottom: 0;">
-                        <p><a class="btn" data-toggle="collapse" data-target="#headingOne">Close <i class="fas fa-times"></i></a></p>
+                        <p><a id="home-btn" class="btn" data-toggle="collapse" data-target="#headingOne">Close <i class="fas fa-times"></i></a></p>
                       </div>
                     </div>
                   </div>
@@ -121,7 +127,7 @@
                         <h3>Spacetime Coordinates</h3>
                         <p><i class="far fa-calendar"></i> <span class="talk-date"></span><br/><span class="talk-time"></span></p>
                         <p><i class="fa fa-lg fa-map-marker"></i> <span class="talk-building"></span>, Room&nbsp;<span class="talk-room"></span><br/><span class="talk-address"></span><br/>Toronto, Ontario, Canada</p>
-                        <p><a href="#mapModal" class="btn btn-outline" data-toggle="modal"><i class="fas fa-map-marked-alt"></i> Map</a></p>
+                        <p><a id="location-btn" class="btn btn-outline" data-toggle="collapse" data-target="#location"><i class="fas fa-map-marked-alt"></i> Map</a></p>
                       </div>
                     </div>
                   </div>
@@ -160,6 +166,127 @@
             </div>
           </div>
         </div>
+
+        <div id="discover" class="text-center collapse" data-parent="#accordion">
+          <div class="heading-wrapper">
+            <div class="container">
+              <div class="section-heading text-center">
+                <h2>Discover the Universe!</h2>
+                <hr>
+                <p>On the first Thursday of most months, the Astronomy Public Tours &ndash; the AstroTours &ndash; are held by the graduate students in the Department of Astronomy and Astrophysics at the University of Toronto. All of our events are free and no registration or sign-up is required.</p>
+                <p>We bring to you the hottest discoveries of modern astrophysics, the life and times of astronomers past, and the science behind blockbuster films and science fiction. Our talks are meant for a diverse audience, and we try to keep the technical aspects of them to a degree understandable to those with a high school science background.</p>
+                <div class="row">
+                  <div class="col-12 my-auto">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 col-xl-3">
+                          <div class="activity-item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <h3>Public Talk</h3>
+                            <p class="text-muted">A 45-minute presentation on a topic in astronomy</p>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                          <div class="activity-item">
+                            <i class="fab fa-wpexplorer"></i>
+                            <h3>Telescope Viewing</h3>
+                            <p class="text-muted">See the stars through the telescopes in our observatory (weather permitting)</p>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                          <div class="activity-item">
+                            <i class="fas fa-gamepad"></i>
+                            <h3>Interactive Media</h3>
+                            <p class="text-muted">Oculus Rift, Worldwide Telescope, and 3D-printed models</p>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3">
+                          <div class="activity-item">
+                            <i class="far fa-eye"></i>
+                            <h3>Planetarium Shows</h3>
+                            <p class="text-muted">Experience the cosmos in our 25-seat planetarium (free tickets available at event)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p>While the lecture halls for our public talks are wheelchair accessible, unfortunately this is not the case for all of the activities after the talk. Please check our FAQ for more details and contact us if you have further questions.</p>
+                <p><a id="faq-btn" class="btn btn-outline btn-xl" data-toggle="collapse" data-target="#faq">FAQ</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="faq" class="collapse" data-parent="#accordion">
+          <div class="heading-wrapper">
+            <div class="container">
+              <div class="section-heading text-center">
+                <h1>Frequently Asked Questions</h1>
+                <hr>
+                <div class="faq-body text-left">  
+                  <!-- Text contained in 'js/faq.json' -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="team" class="collapse" data-parent="#accordion">
+          <div class="heading-wrapper">
+            <div class="container">
+              <div class="section-heading text-center">
+                <h2>Our Team</h2>
+                <p class="text-secondary">2018&ndash;19 season</p>
+                <hr>
+                <p>Our team of volunteers is comprised of graduate students from the <a href="http://www.astro.utoronto.ca/" target="_blank">Department of Astronomy & Astrophysics</a>, the <a href="http://www.dunlap.utoronto.ca/" target="_blank">Dunlap Institute</a>, and the <a href="http://www.cita.utoronto.ca/" target="_blank">Canadian Institute for Theoretical Astrophysics</a>.</p>
+                <div id="team-photo">
+                    <img src="img/team/teamphoto.jpg">
+                </div>
+                <p>Our monthly AstroTours are generously supported by the <strong>Department of Astronomy and Astrophysics</strong> at the University of Toronto.</p>
+                <div class="row">
+                  <div class="col-12 order-1 col-lg-12 order-lg-3 col-xl-4 order-xl-2 my-auto" style="padding: 25px">
+                    <a href="http://www.astro.utoronto.ca/" target="_blank"><img src="img/sponsors/daa-black.png" alt="Department of Astronomy and Astrophysics logo" style="height:71px;"></a>
+                  </div>
+                  <div class="col-12 order-2 col-lg-6 order-lg-1 col-xl-4 order-xl-1 my-auto" style="padding: 25px">
+                    <a href="http://www.cita.utoronto.ca/" target="_blank"><img src="img/sponsors/cita-black.png" alt="Canadian Institute for Theoretical Astrophysics logo" style="width:262px;height:71px;"></a>
+                  </div>
+                  <div class="col-12 order-3 col-lg-6 order-lg-2 col-xl-4 col-xl-3 my-auto" style="padding: 25px">
+                    <a href="http://www.dunlap.utoronto.ca/" target="_blank"><img src="img/sponsors/dunlap-black.png" alt="Dunlap Institute for Astronomy and Astrophysics logo" style="height:45px;"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="archive" class="collapse" data-parent="#accordion">
+          <div class="heading-wrapper">
+            <div class="container">
+              <div class="section-heading text-center">
+                <h2>Recent tours</h2>
+                <p class="text-secondary">Archive</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="location" class="collapse" data-parent="#accordion">
+          <div class="heading-wrapper">
+            <div class="container">
+              <div class="section-heading text-center">
+                <h2>Location</h2>
+                <hr>
+                <iframe class="talk-map" width="100%" height="100%" frameborder="0" style="border: 0" allowfullscreen></iframe>
+                <p>Our events are located at the University of Toronto. Our upcoming tour will be in <strong>Room&nbsp;<span class="talk-room"></span></strong> of the <strong><span class="talk-building"></span></strong> (<span class="talk-building-code"></span>&nbsp;<span class="talk-room"></span>).</p>
+                <p><i class="fa fa-lg fa-map-marker"></i> <span class="talk-address"></span><br/>Toronto, Ontario, Canada<br/>M5S 3H4</p>
+                <p><i class="fa fa-lg fa-envelope"></i> <a href="mailto:tours@astro.utoronto.ca">tours&#64;astro.utoronto.ca</a></p>
+                <p>We would like to acknowledge this sacred land on which the University of Toronto operates. It has been a site of human activity for 15,000 years. This land is the territory of the <strong>Huron&ndash;Wendat</strong> and <strong>Petun First Nations</strong>, the <strong>Seneca</strong>, and most recently, the <strong>Mississaugas of the Credit River</strong>. The territory was the subject of the Dish with One Spoon Wampum Belt Covenant, an agreement between the Iroquois Confederacy and Confederacy of the Ojibwe and allied nations to peaceably share and care for the resources around the Great Lakes. Today, the meeting place of Toronto is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work in the community, on this territory.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </header>
 
@@ -179,171 +306,6 @@
       </div>
     </div>
     <!-- End Map Modal -->
-
-    <section class="discover bg-primary text-center" id="discover">
-      <div class="container">
-        <h2 class="section-heading">Discover the Universe!</h2>
-        <hr>
-        <p>On the first Thursday of most months, the Astronomy Public Tours &ndash; the AstroTours &ndash; are held by the graduate students in the Department of Astronomy and Astrophysics at the University of Toronto. All of our events are free and no registration or sign-up is required.</p>
-        <p>We bring to you the hottest discoveries of modern astrophysics, the life and times of astronomers past, and the science behind blockbuster films and science fiction. Our talks are meant for a diverse audience, and we try to keep the technical aspects of them to a degree understandable to those with a high school science background.</p>
-        <div class="row">
-          <div class="col-12 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-6 col-xl-3">
-                  <div class="activity-item">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                    <h3>Public Talk</h3>
-                    <p class="text-muted">A 45-minute presentation on a topic in astronomy</p>
-                  </div>
-                </div>
-                <div class="col-md-6 col-xl-3">
-                  <div class="activity-item">
-                    <i class="fab fa-wpexplorer"></i>
-                    <h3>Telescope Viewing</h3>
-                    <p class="text-muted">See the stars through the telescopes in our observatory (weather permitting)</p>
-                  </div>
-                </div>
-                <div class="col-md-6 col-xl-3">
-                  <div class="activity-item">
-                    <i class="fas fa-gamepad"></i>
-                    <h3>Interactive Media</h3>
-                    <p class="text-muted">Oculus Rift, Worldwide Telescope, and 3D-printed models</p>
-                  </div>
-                </div>
-                <div class="col-md-6 col-xl-3">
-                  <div class="activity-item">
-                    <i class="far fa-eye"></i>
-                    <h3>Planetarium Shows</h3>
-                    <p class="text-muted">Experience the cosmos in our 25-seat planetarium (free tickets available at event)</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p>While the lecture halls for our public talks are wheelchair accessible, unfortunately this is not the case for all of the activities after the talk. Please check our FAQ for more details and contact us if you have further questions.</p>
-        <p><a href="#faqModal" class="btn btn-outline btn-xl" data-toggle="modal">FAQ</a></p>
-      </div>
-    </section>
-
-    <!-- FAQ Modal -->
-    <div id="faqModal" class="modal fade" role="dialog" aria-hidden="true" aria-labelledby="faqModalLabel" tabindex="-1">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title">Frequently Asked Questions</h1>
-            <i class="fa fa-2x fa-times close" data-dismiss="modal"></i>
-          </div>
-          <div class="modal-body faq-body">
-            <!-- Text contained in `js/faq.json` -->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End FAQ Modal -->
-
-    <section class="team" id="team">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Our Team</h2>
-          <p class="text-secondary">2018&ndash;19 season</p>
-          <hr>
-          <p>Our team of volunteers is comprised of graduate students from the <a href="http://www.astro.utoronto.ca/" target="_blank">Department of Astronomy & Astrophysics</a>, the <a href="http://www.dunlap.utoronto.ca/" target="_blank">Dunlap Institute</a>, and the <a href="http://www.cita.utoronto.ca/" target="_blank">Canadian Institute for Theoretical Astrophysics</a>.</p>
-          <div id="team-photo">
-              <img src="img/team/teamphoto.jpg">
-          </div>
-          <p>Our monthly AstroTours are generously supported by the <strong>Department of Astronomy and Astrophysics</strong> at the University of Toronto.</p>
-          <div class="row">
-            <div class="col-12 order-1 col-lg-12 order-lg-3 col-xl-4 order-xl-2 my-auto" style="padding: 25px">
-              <a href="http://www.astro.utoronto.ca/" target="_blank"><img src="img/sponsors/daa-black.png" alt="Department of Astronomy and Astrophysics logo" style="height:71px;"></a>
-            </div>
-            <div class="col-12 order-2 col-lg-6 order-lg-1 col-xl-4 order-xl-1 my-auto" style="padding: 25px">
-              <a href="http://www.cita.utoronto.ca/" target="_blank"><img src="img/sponsors/cita-black.png" alt="Canadian Institute for Theoretical Astrophysics logo" style="width:262px;height:71px;"></a>
-            </div>
-            <div class="col-12 order-3 col-lg-6 order-lg-2 col-xl-4 col-xl-3 my-auto" style="padding: 25px">
-              <a href="http://www.dunlap.utoronto.ca/" target="_blank"><img src="img/sponsors/dunlap-black.png" alt="Dunlap Institute for Astronomy and Astrophysics logo" style="height:45px;"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <div class="portfolio-heading text-center">
-          <h3 class="text-secondary mb-0">Archive</h3>
-          <h2 class="mb-5">Recent Tours</h2>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Caption</h2>
-                  <p class="mb-0">Placeholder text</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="https://via.placeholder.com/720x480" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Caption</h2>
-                  <p class="mb-0">Placeholder text</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="https://via.placeholder.com/720x480" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Caption</h2>
-                  <p class="mb-0">Placeholder text</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="https://via.placeholder.com/720x480" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Caption</h2>
-                  <p class="mb-0">Placeholder text</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="https://via.placeholder.com/720x480" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="location bg-primary" id="location">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2>Location</h2>
-            <hr>
-          </div>
-          <div class="col-12">
-            <p>Our events are located at the University of Toronto. Our upcoming tour will be in <strong>Room&nbsp;<span class="talk-room"></span></strong> of the <strong><span class="talk-building"></span></strong> (<span class="talk-building-code"></span>&nbsp;<span class="talk-room"></span>).</p>
-            <p><i class="fa fa-lg fa-map-marker"></i> <span class="talk-address"></span><br/>Toronto, Ontario, Canada<br/>M5S 3H4</p>
-            <p><i class="fa fa-lg fa-envelope"></i> <a href="mailto:tours@astro.utoronto.ca">tours&#64;astro.utoronto.ca</a></p>
-            <p>We would like to acknowledge this sacred land on which the University of Toronto operates. It has been a site of human activity for 15,000 years. This land is the territory of the <strong>Huron&ndash;Wendat</strong> and <strong>Petun First Nations</strong>, the <strong>Seneca</strong>, and most recently, the <strong>Mississaugas of the Credit River</strong>. The territory was the subject of the Dish with One Spoon Wampum Belt Covenant, an agreement between the Iroquois Confederacy and Confederacy of the Ojibwe and allied nations to peaceably share and care for the resources around the Great Lakes. Today, the meeting place of Toronto is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work in the community, on this territory.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="map" class="map">
-      <iframe class="talk-map" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </section>
 
     <footer>
       <div class="container">
@@ -384,8 +346,8 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/new-age.js"></script>
+    <!-- Custom scripts -->
+    <script src="js/astrotours.js"></script>
 
     <!-- Script to retrieve upcoming tour info -->
     <script src="js/load-info.js"></script>

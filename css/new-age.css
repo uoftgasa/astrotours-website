@@ -219,12 +219,12 @@ header.masthead .header-content h1 {
   padding: 30px;
 }
 
-section.discover {
+#discover {
   position: relative;
   padding: 100px 0;
 }
 
-section.discover h2 {
+#discover h2 {
   font-size: 50px;
   margin-top: 0;
 }
@@ -256,6 +256,14 @@ section.discover h2 {
   -webkit-text-fill-color: transparent;
 }
 
+.faq-body h4 {
+  font-weight: bold;
+}
+
+.faq-body p {
+  padding: 0 3%;
+}
+
 #team-photo {
   padding: 25px 0;
 }
@@ -264,94 +272,11 @@ section.discover h2 {
   width: 100%;
 }
 
-section.portfolio {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
-}
-
-section.portfolio .portfolio-heading h2 {
-  font-size: 3rem;
-}
-
-section.portfolio .portfolio-heading h3 {
-  font-size: 1rem;
-  text-transform: uppercase;
-}
-
-section.portfolio .portfolio-item {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  max-width: 530px;
-  margin: auto auto 1rem;
-}
-
-section.portfolio .portfolio-item .caption {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-}
-
-section.portfolio .portfolio-item .caption .caption-content {
-  color: #fff;
-  margin: auto 2rem 2rem;
-}
-
-section.portfolio .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-}
-
-section.portfolio .portfolio-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1.2rem;
-}
-
-@media (min-width: 992px) {
-  section.portfolio .portfolio-item {
-    max-width: none;
-    margin: 0;
-  }
-  section.portfolio .portfolio-item .caption {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-    -webkit-clip-path: inset(0px);
-    clip-path: inset(0px);
-  }
-  section.portfolio .portfolio-item .caption .caption-content {
-    -webkit-transition: opacity 0.25s;
-    transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-  }
-  section.portfolio .portfolio-item img {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-    clip-path: inset(-1px);
-  }
-  section.portfolio .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
-  }
-  section.portfolio .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
-  }
-}
-
-section.location {
+#location {
   text-align: center;
 }
 
-section.location h2 {
+#location h2 {
   margin-top: 0;
   margin-bottom: 25px;
 }
@@ -420,13 +345,6 @@ footer ul.list-social li.social-youtube a {
 
 footer ul.list-social li.social-youtube a:hover {
   background-color: #b02b26;
-}
-
-.modal h4 {
-  font-weight: bold;
-}
-.modal p {
-  padding: 0 3%;
 }
 
 .bg-primary {
