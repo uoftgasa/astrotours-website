@@ -12,5 +12,6 @@
     "address": "Address",
     "mapsrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.3890147929997!2d-79.40063834855974!3d43.66087867901846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34bf43351f69%3A0x36b6dd5f4f4ae5be!2sMcLennan+Physical+Laboratories%2C+Toronto%2C+ON!5e0!3m2!1sen!2sca!4v1546587848545",
     "abstract": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis justo eu nunc consectetur molestie. Nulla non feugiat justo. Fusce id efficitur purus. Nunc fermentum purus vitae elit faucibus, vel lobortis risus aliquam. Praesent suscipit dui eget fermentum auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis nibh in justo sollicitudin pharetra.",
-    "speakerInfo": "Sed ultrices odio lectus, vel iaculis felis tempor eu. Donec dignissim augue at gravida posuere. Mauris quis libero vitae sapien cursus scelerisque vitae quis velit. Proin non rhoncus sapien. Nulla non gravida tortor. Vestibulum ultrices tristique posuere. Donec id ultricies purus. Etiam ante augue, feugiat at blandit in, porttitor vitae ante."
+    "speakerInfo": "Sed ultrices odio lectus, vel iaculis felis tempor eu. Donec dignissim augue at gravida posuere. Mauris quis libero vitae sapien cursus scelerisque vitae quis velit. Proin non rhoncus sapien. Nulla non gravida tortor. Vestibulum ultrices tristique posuere. Donec id ultricies purus. Etiam ante augue, feugiat at blandit in, porttitor vitae ante.",
+    "imageCredit": "Image credit"
 }

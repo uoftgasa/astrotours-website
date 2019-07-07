@@ -282,10 +282,17 @@ header.masthead .header-content h1 {
 }
 
 footer {
-  padding: 25px 0;
+  height: 100px;
+  padding: 10px 0;
   text-align: center;
-  color: rgba(255, 255, 255, 0.3);
-  background-color: #222222;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: transparent;
+}
+
+@media (min-width: 576px) {
+  footer {
+    height: 50px;
+  }
 }
 
 footer h2 {
@@ -293,7 +300,6 @@ footer h2 {
 }
 
 footer p {
-  margin: 25px auto;
   font-size: 16px;
 }
 
@@ -306,45 +312,27 @@ footer ul.list-social {
 }
 
 footer ul.list-social li a {
-  font-size: 24px;
-  line-height: 48px;
+  font-size: 18px;
+  line-height: 20px;
   display: block;
-  width: 48px;
-  height: 48px;
-  color: white;
-  border-radius: 100%;
+  width: 20px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
-footer ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
+.social-twitter a:hover {
+  color: #1da1f2;
 }
 
-footer ul.list-social li.social-twitter a:hover {
-  background-color: #0d95e8;
+.social-facebook a:hover {
+  color: #3b5998;
 }
 
-footer ul.list-social li.social-facebook a {
-  background-color: #3b5998;
+.social-instagram a:hover {
+  color: #bc2a8d;
 }
 
-footer ul.list-social li.social-facebook a:hover {
-  background-color: #344e86;
-}
-
-footer ul.list-social li.social-instagram a {
-  background-color: #bc2a8d;
-}
-
-footer ul.list-social li.social-instagram a:hover {
-  background-color: #a9257e;
-}
-
-footer ul.list-social li.social-youtube a {
-  background-color: #c4302b;
-}
-
-footer ul.list-social li.social-youtube a:hover {
-  background-color: #b02b26;
+.social-youtube a:hover {
+  color: #c4302b;
 }
 
 .bg-primary {
@@ -384,69 +372,6 @@ footer ul.list-social li.social-youtube a:hover {
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
-}
-
-.social-icons {
-  /*position: absolute;*/
-  margin-bottom: 2rem;
-  width: 100%;
-  z-index: 2;
-}
-
-.social-icons ul {
-  width: 100%;
-  text-align: center;
-}
-
-.social-icons ul > li {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  display: inline-block;
-}
-
-.social-icons ul > li > a {
-  display: block;
-  color: white;
-  background-color: rgba(0, 46, 102, 0.8);
-  border-radius: 100%;
-  font-size: 2rem;
-  line-height: 4rem;
-  height: 4rem;
-  width: 4rem;
-}
-
-@media (min-width: 992px) {
-  .social-icons {
-    margin: 0;
-    position: absolute;
-    right: 4rem;
-    bottom: -25rem;
-    width: auto;
-  }
-  .social-icons ul {
-    margin-top: 0;
-    width: auto;
-  }
-  .social-icons ul > li {
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 2rem;
-  }
-  .social-icons ul > li:last-child {
-    margin-bottom: 0;
-  }
-  .social-icons ul > li > a {
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    font-size: 2rem;
-    line-height: 4rem;
-    height: 4rem;
-    width: 4rem;
-  }
-  .social-icons ul > li > a:hover {
-    background-color: #002E66;
-  }
 }
 
 /* Map */
