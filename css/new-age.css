@@ -282,16 +282,19 @@ header.masthead .header-content h1 {
 }
 
 footer {
-  height: 100px;
+  height: 50px;
   padding: 10px 0;
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
   background-color: transparent;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 575px) {
   footer {
-    height: 50px;
+    height: 100px;
+  }
+  .text-center-sm {
+    text-align: left;
   }
 }
 
