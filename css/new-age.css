@@ -208,6 +208,9 @@ header.masthead .header-content h1 {
   header.masthead .heading-wrapper {
     padding-bottom: 100px;
   }
+  .content-wrapper {
+    height: 100%;
+  }
   header.masthead .header-content {
     margin-bottom: 0;
     text-align: left;
