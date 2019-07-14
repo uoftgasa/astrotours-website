@@ -37,10 +37,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a id="home-nav" class="nav-link active disabled" data-toggle="collapse" data-target="#headingOne">Home</a>
+              <a id="home-nav" class="nav-link active disabled" data-toggle="collapse" data-target="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a id="next-tour-nav" class="nav-link" data-toggle="collapse" data-target="#headingTwo">Next tour</a>
+              <a id="next-tour-nav" class="nav-link" data-toggle="collapse" data-target="#next-tour">Next tour</a>
             </li>
             <li class="nav-item">
               <a id="discover-nav" class="nav-link" data-toggle="collapse" data-target="#discover">Discover</a>
@@ -64,7 +64,8 @@
 
     <header class="masthead">
       <div id="accordion">
-        <div id="headingOne" class="collapse show" data-parent="#accordion">
+
+        <div id="home" class="collapse show" data-parent="#accordion">
           <div class="heading-wrapper">
             <div class="container-fluid h-100">
               <div class="row h-100">
@@ -73,7 +74,7 @@
                     <h3 class="mb-3">Next tour:</h3>
                     <h1 class="mb-3 talk-title"></h1>
                     <h3 class="mb-5"><span class="talk-date"></span></h3>
-                    <a id="next-tour-btn" class="btn btn-outline btn-xl collapsed" data-toggle="collapse" data-target="#headingTwo">More Details</a>
+                    <a id="next-tour-btn" class="btn btn-outline btn-xl collapsed" data-toggle="collapse" data-target="#next-tour">More Details</a>
                   </div>
                 </div>
                 <div class="col-lg-5 my-auto">
@@ -82,7 +83,8 @@
             </div>
           </div>
         </div>
-        <div id="headingTwo" class="collapse bg-darken" data-parent="#accordion">
+
+        <div id="next-tour" class="collapse bg-darken" data-parent="#accordion">
           <div class="heading-wrapper">
             <div class="container-fluid h-100">
               <div class="row h-100">
@@ -90,7 +92,7 @@
                   <div class="row">
                     <div class="col-md-10 offset-md-1">
                       <div class="header-content float-right text-right" style="margin-bottom: 0;">
-                        <p><a id="home-btn" class="btn" data-toggle="collapse" data-target="#headingOne">Close <i class="fas fa-times"></i></a></p>
+                        <p><a id="home-btn" class="btn" data-toggle="collapse" data-target="#home">Close <i class="fas fa-times"></i></a></p>
                       </div>
                     </div>
                   </div>
@@ -100,7 +102,7 @@
                         <h1 class="talk-title"></h1>
                         <h3>Speaker: <span class="talk-speaker"></span></h3>
                         <p class="talk-abstract"></p>
-                        <p><a class="btn btn-outline" data-toggle="collapse" data-target="#headingThree">About the speaker</a></p>
+                        <p><a class="btn btn-outline" data-toggle="collapse" data-target="#speaker-info">About the speaker</a></p>
                       </div>
                     </div>
                     <div class="col-lg-5 my-auto">
@@ -117,7 +119,8 @@
             </div>
           </div>
         </div>
-        <div id="headingThree" class="collapse bg-darken" data-parent="#accordion">
+
+        <div id="speaker-info" class="collapse bg-darken" data-parent="#accordion">
           <div class="heading-wrapper">
             <div class="container h-100">
               <div class="row h-100">
@@ -125,7 +128,7 @@
                   <div class="row">
                     <div class="col">
                       <div class="float-right text-right">
-                        <p><a class="btn" data-toggle="collapse" data-target="#headingTwo">Close <i class="fas fa-times"></i></a></p>
+                        <p><a class="btn" data-toggle="collapse" data-target="#next-tour">Close <i class="fas fa-times"></i></a></p>
                       </div>
                     </div>
                   </div>
