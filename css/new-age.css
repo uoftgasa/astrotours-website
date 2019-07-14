@@ -172,7 +172,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  overflow: auto;
+  overflow: hidden;
 }
 
 header.masthead .heading-wrapper {
@@ -183,7 +183,11 @@ header.masthead .heading-wrapper {
 
 header.masthead .bg-darken {
   background-color: rgba(0, 0, 0, 0.7);
-  overflow-y: scroll;
+}
+
+.content-wrapper {
+  height: 90%;
+  overflow: auto;
 }
 
 header.masthead .header-content {
