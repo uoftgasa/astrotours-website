@@ -8,7 +8,7 @@
     $('.navbar-collapse').collapse('hide');
   });
 
-  $('#home-btn').click(function() {
+  $('.home-btn').click(function() {
     $('.nav-link').removeClass("disabled active");
     $('#home-nav').addClass("disabled active");
   });
