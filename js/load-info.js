@@ -22,3 +22,11 @@ $.getJSON("js/faq.json", function(data) {
         $('.faq-body').append("<p>"+element['answer']+"</p>");
     });
 });
+
+// Load previous tour info
+$.getJSON("js/tours-prev.json", function(data) {
+    $('.prev-tour-title').text(data['title']);
+    $('.prev-tour-speaker').text(data['speaker']);
+    $('.prev-tour-date').text(data['date']);
+    $('.prev-tour-video').attr('src', data['videosrc']);
+});
