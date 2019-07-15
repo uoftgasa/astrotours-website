@@ -222,6 +222,10 @@ header.masthead .header-content h1 {
   padding: 30px;
 }
 
+#speaker-photo-wrapper img {
+  display: block;
+}
+
 #discover h2 {
   font-size: 50px;
   margin-top: 0;
