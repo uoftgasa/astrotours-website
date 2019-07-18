@@ -25,8 +25,10 @@ $.getJSON("js/faq.json", function(data) {
 
 // Load previous tour info
 $.getJSON("js/tours-prev.json", function(data) {
-    $('.prev-tour-title').text(data['title']);
-    $('.prev-tour-speaker').text(data['speaker']);
-    $('.prev-tour-date').text(data['date']);
-    $('.prev-tour-video').attr('src', data['videosrc']);
+    $.each(data, function(index, element) {
+        $('#archive-body').append("<h5>"+element['date']+"</h5>");
+        $('#archive-body').append("<h3>"+element['title']+" ("+element['speaker']+")</h3>");
+        $('#archive-body').append("<div class='prev-tour-wrapper mx-auto'><div class='video-container mx-auto'><iframe class='prev-tour-video' src='"+element['videosrc']+"' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div></div>");
+        $('#archive-body').append("<hr class='light'>");
+    });
 });
