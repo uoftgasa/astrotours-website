@@ -63,8 +63,8 @@ p {
   letter-spacing: 1px;
 }
 
-#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+#mainNav .navbar-brand .brand-container {
+  width: 200px;
 }
 
 #mainNav .navbar-toggler {
