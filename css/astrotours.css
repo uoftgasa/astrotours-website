@@ -152,7 +152,7 @@ header.masthead {
   height: 100vh;
   color: white;
   background: url("../img/background.jpg");
-  background-position: left;
+  background-position: center;/*left;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -186,6 +186,7 @@ header.masthead .header-content {
 
 header.masthead .header-content h1 {
   font-size: 50px;
+  font-weight: 350;
 }
 
 @media (min-width: 992px) {
