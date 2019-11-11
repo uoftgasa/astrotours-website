@@ -8,7 +8,7 @@
 },
 {
 	"question": "What time should I show up?",
-	"answer": "The lecture begins at 8pm in winter and 9pm in summer. We open the doors approximately 15 minutes prior to the show. Free planetarium tickets are available at the lecture doors before you walk in."
+	"answer": "The lecture begins at 8pm in winter and 9pm in summer. We open the doors approximately 15 minutes prior to the show."
 },
 {
 	"question": "Is there a fee for AstroTours?",
@@ -24,15 +24,15 @@
 },
 {
 	"question": "Are the AstroTours appropriate for children?",
-	"answer": "We leave it up to parents and guardians to determine if children in their group will enjoy attending the talk. Depending on the science background of the child, the lectures may be suitable for children at a middle school level and should be suitable to most people above grade 9. The observing sessions and planetarium shows are fun and interesting for children of all ages. However, if your child is unable to sit still for an hour or gets tired early, it might be best not to bring them to the Tour."
+	"answer": "We leave it up to parents and guardians to determine if children in their group will enjoy attending the talk. Depending on the science background of the child, the lectures may be suitable for children at a middle school level and should be suitable to most people above grade 9. The observing sessions are fun and interesting for children of all ages. However, if your child is unable to sit still for an hour or gets tired early, it might be best not to bring them to the Tour."
 },
 {
 	"question": "Can I bring a large group to the AstroTours?",
-	"answer": "School classes, cub scouts and other large groups often attend our lectures. If you are bringing more than five people to the tour, then it might be a good idea to arrive 15 to 20 minutes early to ensure that everyone can sit together. If you are worried that your group is too large, please contact us.</p><p>At this time we are not accepting groups of more than five people for regularly scheduled planetarium shows. On occasion, however, our planetarium operators have volunteered to do an extra show for groups with between 10 and 25 people. Please contact us to see if this may be the case for the upcoming AstroTour.</p><p>The planetarium can be booked for private groups, however AstroTours does not administer this service. For more information, go to <a href='universe.utoronto.ca'>Universe</a> or contact Universe’s planetarium service at <a href='mailto:planetarium@universe.utoronto.ca'>planetarium&#64;universe.utoronto.ca</a>."
+	"answer": "School classes, cub scouts and other large groups often attend our lectures. If you are bringing more than five people to the tour, then it might be a good idea to arrive 15 to 20 minutes early to ensure that everyone can sit together. If you are worried that your group is too large, please contact us.</p><p>At this time we are not hosting planetarium shows. Please contact us for any further details regarding the upcoming AstroTour.</p>."
 },
 {
 	"question": "Can I have a private tour?",
-	"answer": "We do not offer free private tours. If you are interested in a private tour of the planetarium and telescopes, please go to <a href='universe.utoronto.ca'>Universe</a> or contact Universe’s planetarium service at <a href='mailto:planetarium@universe.utoronto.ca'>planetarium&#64;universe.utoronto.ca</a>.</p><p>If you are interested in attending hour-long planetarium shows as an individual or small group, <a href='universe.utoronto.ca'>Universe</a> now offers paid public shows."
+	"answer": "We do not offer free private tours. If you are interested in a private tour of telescopes, please go to <a href='universe.utoronto.ca'>Universe</a>.</p>"
 },
 {
 	"question": "Where can I find information and video of past talks?",
@@ -63,6 +63,13 @@
 	"answer": "The telescope targets are different every month and depend on what is visible in the sky that night. Some examples of telescope targets in the past are the Moon, Jupiter, Saturn, stellar nurseries, double stars, and star clusters. Please ask one of our volunteers if you would like to know what is being observed."
 },
 {
+<<<<<<< HEAD
+=======
+	"question": "Will I be able to attend a planetarium show?",
+	"answer": "Due to limited seating, we offer free tickets to our planetarium shows on a &ldquo;first-come, first-served&rdquo; basis. These tickets are available outside of the lecture hall before the talk. If you are a family with young children, please ask one of our volunteers about obtaining tickets to the first planetarium show."
+},
+{
+>>>>>>> e656f0fcaf90da441ebfedf41c820f13a9a11343
 	"question": "What happened to the planetarium?",
 	"answer": "The planetarium located in the basement of the astronomy building is now out of commission. We hope to have access to a planetarium again in the future but have no expected date."
 },
