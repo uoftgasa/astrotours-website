@@ -28,7 +28,7 @@
 },
 {
 	"question": "Can I bring a large group to the AstroTours?",
-	"answer": "School classes, cub scouts and other large groups often attend our lectures. If you are bringing more than five people to the tour, then it might be a good idea to arrive 15 to 20 minutes early to ensure that everyone can sit together. If you are worried that your group is too large, please contact us.</p><p>At this time we are not hosting planetarium shows. Please contact us for any further details regarding the upcoming AstroTour.</p>."
+	"answer": "School classes, cub scouts and other large groups often attend our lectures. If you are bringing more than five people to the tour, then it might be a good idea to arrive 15 to 20 minutes early to ensure that everyone can sit together. If you are worried that your group is too large, please contact us.</p><p>At this time we are not hosting planetarium shows. Please contact us for any further details regarding the upcoming AstroTour.</p>"
 },
 {
 	"question": "Can I have a private tour?",
@@ -63,13 +63,6 @@
 	"answer": "The telescope targets are different every month and depend on what is visible in the sky that night. Some examples of telescope targets in the past are the Moon, Jupiter, Saturn, stellar nurseries, double stars, and star clusters. Please ask one of our volunteers if you would like to know what is being observed."
 },
 {
-<<<<<<< HEAD
-=======
-	"question": "Will I be able to attend a planetarium show?",
-	"answer": "Due to limited seating, we offer free tickets to our planetarium shows on a &ldquo;first-come, first-served&rdquo; basis. These tickets are available outside of the lecture hall before the talk. If you are a family with young children, please ask one of our volunteers about obtaining tickets to the first planetarium show."
-},
-{
->>>>>>> e656f0fcaf90da441ebfedf41c820f13a9a11343
 	"question": "What happened to the planetarium?",
 	"answer": "The planetarium located in the basement of the astronomy building is now out of commission. We hope to have access to a planetarium again in the future but have no expected date."
 },
