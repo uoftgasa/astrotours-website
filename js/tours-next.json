@@ -1,17 +1,17 @@
 {
-    "title": "TBD",
+    "title": "Dark energy: The weirdest 70% of the Universe",
     "speaker": "Pavel Motloch",
     "month": "February",
     "day": "6",
     "year": "2020",
-    "time": "TBD",
+    "time": "9:00 PM",
     "timezone": "EST",
-    "buildingName": "McLennan Physical Laboratories",
-    "buildingCode": "MP",
-    "roomNumber": "202",
-    "address": "60 St. George Street",
-    "mapsrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.3888282150006!2d-79.40063298505478!3d43.660882559952924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34bf43351f69%3A0x36b6dd5f4f4ae5be!2sMcLennan%20Physical%20Laboratories%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1573758351544!5m2!1sen!2sca",
-    "abstract": "Coming Soon!",
-    "speakerInfo" :"Coming Soon!",
-    "imageCredit": "Left: ESA/AOES Medialab, Center: NASA/Corbis, Right: A. Fletcher et al, MNRAS, 2011"
+    "buildingName": "Bahen Centre",
+    "buildingCode": "BA",
+    "roomNumber": "1160",
+    "address": "40 St. George Street",
+    "mapsrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.44844028247!2d-79.39985628450205!3d43.659642579121055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34c75165c957%3A0x6459384147b4b67b!2sBahen%20Centre%20for%20Information%20Technology!5e0!3m2!1sen!2sca!4v1578932814022!5m2!1sen!2sca",
+    "abstract": "It seems that majority of the Universe is made out of dark energy, stuff that is completely unlike anything else we have ever encountered. Why do we believe this and what do we actually know about this enigmatic substance? You will learn about how dying stars reveal an expanding Universe and how its expansion accelerates, instead of slowing down. Then we will discuss how the oldest light in the Universe confirmed this strange tale, before looking into the twisted history of the dark energy and how our best estimate of its properties failed miserably. Let's dive together into one of the biggest mysteries the Universe has to offer.",
+    "speakerInfo" :"Pavel Motloch is a Postdoctoral Fellow at the Canadian Institute for Theoretical Astrophysics. Pavel is from the Czech Republic and before coming to Toronto did his PhD at the University of Chicago.",
+    "imageCredit": "Pavel Motloch"
 }
