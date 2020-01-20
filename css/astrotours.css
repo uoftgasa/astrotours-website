@@ -287,6 +287,10 @@ header.masthead .header-content h1 {
   height: 100%;
 }
 
+#contact{
+  text-align: center;
+}
+
 footer {
   height: 50px;
   padding: 10px 0;
