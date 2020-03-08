@@ -18,7 +18,7 @@
     $('#next-tour-nav').addClass("disabled active");
   });
 
-  $('#faq-btn').click(function() {
+  $('.faq-link').click(function() {
     $('.nav-link').removeClass("disabled active");
     $('#faq-nav').addClass("disabled active");
   });
