@@ -260,10 +260,6 @@ header.masthead .header-content h1 {
   width: 100%;
 }
 
-#location {
-  text-align: center;
-}
-
 .prev-tour-wrapper {
   width: 75%;
   max-width: 600px;
@@ -285,10 +281,6 @@ header.masthead .header-content h1 {
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-#contact{
-  text-align: center;
 }
 
 footer {
