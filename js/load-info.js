@@ -2,7 +2,7 @@
 $.getJSON("js/tours-next.json", function(data) {
     $('.talk-title').text(data['title']);
     $('.talk-speaker').text(data['speaker']);
-    $('.talk-date').text(data['month'] + " " + data['day'] + ", " + data['year']);
+    $('.talk-date').text(data['month'] + " " + data['day'] + " " + data['year']);
     $('.talk-year').text(data['year']);
     $('.talk-time').text(data['time'] + " " + data['timezone']);
     $('.talk-building').text(data['buildingName']);
@@ -11,6 +11,7 @@ $.getJSON("js/tours-next.json", function(data) {
     $('.talk-room').text(data['roomNumber']);
     $('.talk-map').attr('src', data['mapsrc']);
     $('.talk-abstract').text(data['abstract']);
+    $('.talk-abstract').append("<a href='https://www.toronto.ca/community-people/health-wellness-care/diseases-medications-vaccines/coronavirus/'> this website.</a>");
     $('.talk-speaker-info').text(data['speakerInfo']);
     $('.talk-image-credit').text(data['imageCredit']);
 });
