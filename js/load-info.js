@@ -2,7 +2,7 @@
 $.getJSON("js/tours-next.json", function(data) {
     $('.talk-title').text(data['title']);
     $('.talk-speaker').text(data['speaker']);
-    $('.talk-date').text(data['month'] + " " + data['day'] + ", " + data['year']);
+    $('.talk-date').text(data['month'] + " " + data['day'] + " " + data['year']);
     $('.talk-year').text(data['year']);
     $('.talk-time').text(data['time'] + " " + data['timezone']);
     $('.talk-building').text(data['buildingName']);
@@ -12,6 +12,9 @@ $.getJSON("js/tours-next.json", function(data) {
     $('.talk-map').attr('src', data['mapsrc']);
     $('.talk-abstract').text(data['abstract']);
     $('.talk-speaker-info').text(data['speakerInfo']);
+    $('.talk-speaker-info').append("<p><a href='https://www.toronto.ca/community-people/health-wellness-care/diseases-medications-vaccines/coronavirus/'> Toronto COVID advisory.</a><br/></p>");
+    $('.talk-speaker-info').append("<a href='https://covid-19.ontario.ca/book-vaccine/'> Book a COVID-19 Vaccine in Ontario! </a>");
+    $('.talk-speaker-info').append("<p>Image : USFDA <br/> </p>");
     $('.talk-image-credit').text(data['imageCredit']);
 });
 
