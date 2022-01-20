@@ -1,8 +1,8 @@
 {
-    "title": "Cosmology with galaxy clusters",
-    "speaker": "Ajay Gill",
-    "month": "January",
-    "day": "13",
+    "title": "Why haven’t I heard of her? Stories of women in astronomy.",
+    "speaker": "Taylor Kutra",
+    "month": "Feburary",
+    "day": "3",
     "year": "2022",
     "time": "20:00",
     "timezone": "EST",
@@ -11,7 +11,7 @@
     "roomNumber": "",
     "address": "https://www.youtube.com/c/UofTAstroTours",
     "mapsrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.3890147929997!2d-79.40063834855974!3d43.66087867901846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34bf43351f69%3A0x36b6dd5f4f4ae5be!2sMcLennan+Physical+Laboratories%2C+Toronto%2C+ON!5e0!3m2!1sen!2sca!4v1546587848545",
-    "abstract": "Galaxy clusters form the largest gravitationally bound objects in the Universe. The growth and evolution of galaxy clusters over time is sensitive to the nature of dark matter and dark energy, two of the most profound mysteries in modern science. In this talk, I will describe two experiments that observe galaxy clusters: the Atacama Cosmology Telescope located at the Cerro Toco in the Atacama Desert in the north of Chile and the Superpressure Balloon-Borne Imaging Telescope (SuperBIT). In particular, I will describe how different physical mechanisms in and around galaxy clusters can allow astronomers to learn more about their properties using multi-wavelength observations of both radiation from the early as well as the late Universe.",
-    "speakerInfo": "Ajay is a fourth year PhD student at the David A. Dunlap Department of Astronomy and Astrophysics at the University of Toronto. His research focuses on studying the properties of galaxy clusters and their environments. He also works on developing instrumentation for astronomical observations. Outside of work, he likes playing soccer, hiking, history, and travel.",
-    "imageCredit": "X-ray: NASA/CXC/M.Markevitch et al. Optical: NASA/STScI; Magellan/U.Arizona/D.Clowe et al. Lensing Map: NASA/STScI; ESO WFI; Magellan/U.Arizona/D.Clowe et al."
+    "abstract": "Women and gender minorities have been doing astronomy for centuries but often their contributions are under acknowledged. In celebration of the International day for Women and Girls in STEM, we will be learning about several women and their contributions to astronomy. Their discoveries span everything from the movement of stars in galaxies, to the physics of stars, and the study of planets inside and outside the solar system.",
+    "speakerInfo": "Taylor is starting her fourth year as a PhD Candidate in the Department of Astronomy and Astrophysics at the University of Toronto. She did her undergraduate degree at Quest University Canada in British Columbia where she studied physics and astronomy. When she isn't doing astronomy, she spends her time backpacking, paddling, climbing, and taking care of her rescue dog, Shanty.",
+    "imageCredit": "iStock"
 }
