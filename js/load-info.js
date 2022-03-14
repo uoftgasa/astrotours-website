@@ -1,18 +1,21 @@
 // Load general tour info
 $.getJSON("js/tours-next.json", function(data) {
-    $('.talk-title').text(data['title']);
-    $('.talk-speaker').text(data['speaker']);
-    $('.talk-date').text(data['month'] + " " + data['day'] + ", " + data['year']);
-    $('.talk-year').text(data['year']);
-    $('.talk-time').text(data['time'] + " " + data['timezone']);
-    $('.talk-building').text(data['buildingName']);
-    $('.talk-building-code').text(data['buildingCode']);
-    $('.talk-address').text(data['address']);
-    $('.talk-room').text(data['roomNumber']);
-    $('.talk-map').attr('src', data['mapsrc']);
-    $('.talk-abstract').text(data['abstract']);
-    $('.talk-speaker-info').text(data['speakerInfo']);
-    $('.talk-image-credit').text(data['imageCredit']);
+    $('.homepage-title').text(data[0]['homepage-title']);
+    $.each(data.slice(1), function(index, element) {
+        $('.talk-title').text(data['title']);
+        $('.talk-speaker').text(data['speaker']);
+        $('.talk-date').text(data['month'] + " " + data['day'] + ", " + data['year']);
+        $('.talk-year').text(data['year']);
+        $('.talk-time').text(data['time'] + " " + data['timezone']);
+        $('.talk-building').text(data['buildingName']);
+        $('.talk-building-code').text(data['buildingCode']);
+        $('.talk-address').text(data['address']);
+        $('.talk-room').text(data['roomNumber']);
+        $('.talk-map').attr('src', data['mapsrc']);
+        $('.talk-abstract').text(data['abstract']);
+        $('.talk-speaker-info').text(data['speakerInfo']);
+        $('.talk-image-credit').text(data['imageCredit']);
+    });
 });
 
 // Load FAQ contents
