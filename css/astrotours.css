@@ -54,6 +54,7 @@ p {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+  top: 70px;
 }
 
 #mainNav .navbar-brand {
@@ -187,6 +188,29 @@ header.masthead .header-content {
 header.masthead .header-content h1 {
   font-size: 50px;
 }
+
+/* for covid alert banner */
+@media (max-width: 1141px) {
+  header.masthead {
+    height: calc(100vh - 86px);
+  }
+  #mainNav {
+    top: 85px;
+  }
+}
+
+@media (max-width: 606px) {
+  .alert {
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 438px) {
+  #mainNav {
+    top: 125px;
+  }
+}
+/* for covid alert banner */
+
 
 @media (min-width: 992px) {
   header.masthead {
