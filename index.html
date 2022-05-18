@@ -2,7 +2,6 @@
 <html lang="en">
 
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -22,12 +21,22 @@
     <!-- Custom styles for this template -->
     <link href="css/astrotours.css" rel="stylesheet">
 
+    <script>
+      function myFunction() {
+        var topnavbar = document.getElementById("mainNav");
+        topnavbar.style.top = "0px";
+        var pageheigh = document.getElementsByTagName("header");
+        pageheigh[0].style.height = "100vh";
+      }
+      </script>
+
+    <div class="alert alert-danger" style="border-radius: 0 !important; margin: 0; line-height: 30px;" role="alert">
+      <button type="button" class="close" data-dismiss="alert" onclick="myFunction()">×</button>
+      <center><i class='fas fa-exclamation-triangle' style="font-size: 20px; color:red"></i><strong>&nbsp;&nbsp; Important Message about Face Mask: </strong> Masks are be required to be worn in  U of Toronto classrooms and in indoor spaces.</center>
+    </div>
   </head>
-
-  <body id="page-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top sticky-offset" style="top: 70px;" id="mainNav">
       <div class="container">
         <div class="navbar-brand">
           <div class="brand-container">

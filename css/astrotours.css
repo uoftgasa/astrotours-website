@@ -149,7 +149,7 @@ p {
 header.masthead {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 56px);
   color: white;
   background: url("../img/background.jpg");
   background-position: left;
