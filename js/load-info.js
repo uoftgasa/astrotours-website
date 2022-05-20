@@ -14,7 +14,11 @@ $.getJSON("js/tours-next.json", function(data) {
     $('.talk-abstract').text(data['abstract']);
     $('.talk-speaker-info').text(data['speakerInfo']);
     $('.talk-image-credit').text(data['imageCredit']);
-    $('#ticket-btn').attr('href', data['ticket']);
+    if (data['ticket']) {
+        $('#ticket-btn').attr('hidden', true);
+    } else {
+        $('#ticket-btn').attr('href', data['ticket']);
+    }
 });
 
 // Load FAQ contents
