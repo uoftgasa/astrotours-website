@@ -30,5 +30,4 @@ jobs:
                 whoami
 
       - name: Deploy
-        run: rsync --archive --delete --stats -e 'ssh -p 22' 'public' gasa@astro.utoronto.ca:/web/httpd/users/gasa/public_html/astrotours-hugo-devel/
-    
+        run: rsync --archive --delete --stats -e 'ssh -p 22' 'public/'
