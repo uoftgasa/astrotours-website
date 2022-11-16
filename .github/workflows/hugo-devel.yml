@@ -26,14 +26,8 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-    #     script: |
-    #             cd astrotours-devel && git pull
-
-      # - name: Install SSH Key
-      #   run: |
-          # install -m 600 -D /dev/null ~/.ssh/id_rsa
-          # echo "${{ secrets.PRIVATE_SSH_KEY }}" > ~/.ssh/id_rsa
-          # echo "${{ secrets.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+        script: |
+                whoami
 
       - name: Deploy
         run: rsync --archive --delete --stats -e 'ssh -p ${{ secrets.PORT }}' 'public' gasa@astro.utoronto.ca:/web/httpd/users/gasa/public_html/astrotours-hugo-devel/
