@@ -16,8 +16,8 @@ jobs:
       with:
         hugo-version: '0.105.0'
 
-    # - name: Build
-    #   run: hugo --minify
+    - name: Build
+      run: hugo --minify
 
     # - name: executing remote ssh commands using password
     #   uses: appleboy/ssh-action@v0.1.4  
