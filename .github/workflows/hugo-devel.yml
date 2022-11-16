@@ -27,7 +27,7 @@ jobs:
         env-url: FOOBAR
 
     - name: Use URL for something
-      run: echo "${{ env.FOOBAR }}"
+      run: curl -v -H "Authorization: token ${{ secrets.MY_TOKEN }}" https://api.github.com/repos/uoftgasa/astrotours-website/actions/artifacts
 
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@v0.1.4  
