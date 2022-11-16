@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      {{ partial "header.html" . }}
+      <style>
+        .page-section img {max-width: 1000px; width: 100%}
+        .page-section h2 {text-align: center;}
+
+      </style>
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation-->
+        {{ partial "navbar.html" . }}
+        <!-- Masthead-->
+        <header class="masthead" id="next-tour" style="min-height: 0; height: 250px; background-image: url(../../img/talks_bg/{{ .Params.imgsrc }}) !important">
+            <div class="container px-4 px-lg-5 h-50">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white">Archived AstroTours</h1>
+                </div>
+            </div>
+        </header>
+
+        <section class="page-section" id="about" style="padding: 50px !important">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4"><strong>{{ .Params.title }}</strong></h2>
+                <em>By {{ .Params.speaker }} on {{ .Date.Format  "02 January, 2006" }}</em>
+                <br>
+                <br>
+                <p class="mb-4 justify-content">{{ .Params.abstract }}</p>
+                <div class="ratio ratio-16x9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/{{ .Params.videosrc }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+        </section>
+
+        <section class="page-section bg-primary" id="speaker" style="padding: 50px !important">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white mt-0">About {{ .Params.speaker }}</h2>
+                        <hr class="divider divider-light">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 text-center order-first">
+                            <img class="mx-auto img-fluid rounded-circle" src="../../img/talks_bg/{{ .Params.speakersrc }}" alt="Speaker" style="width:225px; height:225px; object-fit: cover"/>
+                            <h4>{{ .Params.talk.speaker}}</h4>
+                        </div>
+                        <div class="col-lg-8 col-md-12 text-left order-lg-0 d-flex align-items-center">
+                            <p class="text-white-75">{{ .Params.speakerInfo}} </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="page-section" id="speaker">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0"><strong>About the Speaker</strong></h2>
+                <hr class="divider" />
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 text-center order-first">
+                    <div class="mt-5">
+                        <img class="mx-auto img-fluid rounded-circle" src="img/speaker.jpg" alt="GASA Secretary" style="width:225px; height:225px"/>
+                        <h4>{{ .Params.talk.speaker}}</h4>
+                    </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12 text-center order-lg-0">
+                    <div class="mt-5">
+                        <p class="text-muted mb-0">{{ .Params.talk.speakerInfo}} </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Footer-->
+        {{ partial "footer.html" . }}
+
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg navbar-light navbar-shrink" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <a class="navbar-brand d-none d-sm-none d-md-block d-lg-block" href={{ "index.html" | absURL }}><img  class="img-fluid" style="width: 200px;" src={{ "img/astrotours-brand.png" | absURL }}></a>  
+        <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none" href={{ "index.html" | absURL }}><img  class="img-fluid" style="width: 150px;" src={{ "img/astrotours-brand.png" | absURL }}></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                  <li class="nav-item">
+                    <a id="next-tour-nav" class="nav-link" data-toggle="collapse" href={{ "index.html" | absURL }}>Next tour</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.redbubble.com/people/uoftastrotours/shop" target="_blank">Merch</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="archive-nav" class="nav-link" href={{ "archive/" | absURL }}>Archive</a>
+                  </li>
+
+                {{ range ( where .Site.RegularPages "Type" "singlepage" ) }} 
+                <li class="nav-item">
+                    <a id="discover-nav" class="nav-link" href="{{ .Permalink }}">{{ .Title }}</a>
+                  </li>
+                {{ end }}
+
+                <ul class="nav-link list-inline list-social nav-item d-block d-sm-block d-md-block d-lg-none">
+                    <li class="list-inline-item social-twitter" style="padding-right: 10px">
+                      <a href="https://twitter.com/uoftastrotours" target="_blank" style="color: #002a5c">
+                        <i class="fab fa-twitter fa-xl"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item social-facebook" style="padding-right: 10px">
+                      <a href="https://www.facebook.com/utoronto.astrotours/" target="_blank" style="color: #002a5c">
+                        <i class="fab fa-facebook-f fa-xl"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item social-instagram" style="padding-right: 10px">
+                      <a href="https://www.instagram.com/uoftastrotours/" target="_blank" style="color: #002a5c">
+                        <i class="fab fa-instagram fa-xl"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item social-youtube" style="padding-right: 10px">
+                      <a href="https://www.youtube.com/c/UofTAstroTours" target="_blank" style="color: #002a5c">
+                        <i class="fab fa-youtube fa-xl"></i>
+                      </a>
+                    </li>
+                  </ul>
+
+            </ul>
+        </div>
+    </div>
+</nav>

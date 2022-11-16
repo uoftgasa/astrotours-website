@@ -1,0 +1,40 @@
+name: remote ssh command
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ hugo ]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.105.0'
+
+    - name: Build
+      run: hugo --minify
+
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@v0.1.4  
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+    #     script: |
+    #             cd astrotours-devel && git pull
+
+      # - name: Install SSH Key
+      #   run: |
+          # install -m 600 -D /dev/null ~/.ssh/id_rsa
+          # echo "${{ secrets.PRIVATE_SSH_KEY }}" > ~/.ssh/id_rsa
+          # echo "${{ secrets.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+
+      - name: Deploy
+        run: rsync --archive --delete --stats -e 'ssh -p ${{ secrets.PORT }}' 'public' gasa@astro.utoronto.ca:/web/httpd/users/gasa/public_html/astrotours-hugo-devel/
+    

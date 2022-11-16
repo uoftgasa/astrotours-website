@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      {{ partial "header.html" . }}
+      <style>
+        .page-section img {max-width: 1000px; width: 100%}
+        .page-section h2 {text-align: center;}
+
+      </style>
+    </head>
+
+    <body id="page-top">
+      {{ if eq .Params.covidwarning "TRUE" }}
+      <div class="alert alert-warning d-none d-md-none d-lg-block" style="border-radius: 0 !important; margin: 0; line-height: 30px;" role="alert">
+        <center><i class='fas fa-exclamation-triangle' style="font-size: 20px; color:red"></i><strong>&nbsp;&nbsp; Important Message: </strong> In-person Astrotours are back but face masks are strongly recommended.</center>
+      </div>
+      {{ end }}
+        <!-- Navigation-->
+        {{ partial "navbar.html" . }}
+        <!-- Masthead-->
+        <header class="masthead" id="next-tour" style="min-height: 0; height: 250px !important">
+            <div class="container px-4 px-lg-5 h-50">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white">{{ .Params.longtitle}}</h1>
+                </div>
+            </div>
+        </header>
+
+        <section class="page-section" id="about" style="padding: 0 !important">
+            <div class="container px-4 px-lg-5 text-left">
+                <!-- <h2 class="mb-4"><strong>{{ .Params.title}}</strong></h2> -->
+                <p class="text-white-75 mb-4 justify-content">{{ .Content}}</p>
+            </div>
+        </section>
+
+        <!-- <section class="page-section" id="speaker">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0"><strong>About the Speaker</strong></h2>
+                <hr class="divider" />
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 text-center order-first">
+                    <div class="mt-5">
+                        <img class="mx-auto img-fluid rounded-circle" src="img/speaker.jpg" alt="GASA Secretary" style="width:225px; height:225px"/>
+                        <h4>{{ .Params.talk.speaker}}</h4>
+                    </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12 text-center order-lg-0">
+                    <div class="mt-5">
+                        <p class="text-muted mb-0">{{ .Params.talk.speakerInfo}} </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Footer-->
+        {{ partial "footer.html" . }}
+
+    </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{ partial "header.html" . }}
+  <style>
+    .page-section img {
+      max-width: 1000px;
+      width: 100%
+    }
+  </style>
+</head>
+
+<body id="page-top">
+  {{ if eq .Params.covidwarning "TRUE" }}
+  <div class="alert alert-warning d-none d-md-none d-lg-block"
+    style="border-radius: 0 !important; margin: 0; line-height: 30px;" role="alert">
+    <center><i class='fas fa-exclamation-triangle' style="font-size: 20px; color:red"></i><strong>&nbsp;&nbsp; Important
+        Message: </strong> In-person Astrotours are back but face masks are strongly recommended.</center>
+  </div>
+  {{ end }}
+  <!-- Navigation-->
+  {{ partial "navbar.html" . }}
+  <!-- Masthead-->
+  <header class="masthead" id="next-tour" style="min-height: 0; height: 250px !important">
+    <div class="container px-4 px-lg-5 h-50">
+      <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-8 align-self-end">
+          <h1 class="text-white">{{ .Params.title}}</h1>
+        </div>
+      </div>
+  </header>
+
+  <section class="page-section" style="padding: 50px !important">
+    <div class="container px-4 px-lg-5 text-left">
+      <p>More recordings of previous AstroTours are available on our <a href="https://www.youtube.com/c/UofTAstroTours" target="_blank"><i class="fab fa-youtube"></i>&nbsp;YouTube channel</a>.</p>
+      <br>
+      <br>
+
+      <div class="row">
+        {{ range .Data.Pages.ByDate.Reverse }}
+        <div class="col-lg-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top"
+              alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block; object-fit: cover;"
+              src="../img/talks_bg/{{ .Params.imgsrc }}"
+              data-holder-rendered="true">
+            <div class="card-body">
+              <h3 class="card-text">{{ .Params.title }}</h3>
+              <p class="card-text" style="text-align:left;">
+                By {{ .Params.speaker }}
+                <span style="float:right;">
+                  <em>{{ .Date.Format  "Jan 2006" }}</em>
+                </span>
+            </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group d-grid">
+                  <a href="{{ .Permalink }}"><button type="button" class="btn btn-lg btn-outline-secondary">View</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  <!-- Footer-->
+  {{ partial "footer.html" . }}
+
+</body>
+
+</html>
