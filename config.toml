@@ -1,3 +1,3 @@
-baseURL = 'http://www.astro.utoronto.ca/~gasa/astrotours-hugo-devel/'
+baseURL = 'https://www.astro.utoronto.ca/~gasa/astrotours-hugo-devel/'
 languageCode = 'en-us'
 title = 'AstroTours'
