@@ -16,19 +16,19 @@ jobs:
       with:
         hugo-version: '0.105.0'
 
-    - name: Build
-      run: hugo --minify
+    # - name: Build
+    #   run: hugo --minify
 
-    - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@v0.1.4  
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
-        script: |
-                whoami
+    # - name: executing remote ssh commands using password
+    #   uses: appleboy/ssh-action@v0.1.4  
+    #   with:
+    #     host: ${{ secrets.HOST }}
+    #     username: ${{ secrets.USERNAME }}
+    #     password: ${{ secrets.PASSWORD }}
+    #     port: ${{ secrets.PORT }}
+    #     script: |
+    #             whoami
 
-      - name: Deploy
-        run: rsync --archive --delete --stats -e 'ssh -p ${{ secrets.PORT }}' 'public' gasa@astro.utoronto.ca:/web/httpd/users/gasa/public_html/astrotours-hugo-devel/
+    #   - name: Deploy
+    #     run: rsync --archive --delete --stats -e 'ssh -p ${{ secrets.PORT }}' 'public' gasa@astro.utoronto.ca:/web/httpd/users/gasa/public_html/astrotours-hugo-devel/
     
