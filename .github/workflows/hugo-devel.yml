@@ -23,7 +23,7 @@ jobs:
       uses: actions/upload-artifact@master
       with:
         name: astrotours-devel
-        path: astrotours-devel
+        path: public
 
     # - name: executing remote ssh commands using password
     #   uses: appleboy/ssh-action@v0.1.4  
