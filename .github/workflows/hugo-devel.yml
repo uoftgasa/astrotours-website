@@ -17,17 +17,13 @@ jobs:
         hugo-version: '0.105.0'
 
     - name: Build
-      run: hugo --minify  && zip -r public.zip public
+      run: hugo --minify
 
     - name: Upload build
       uses: actions/upload-artifact@master
       with:
-        name: public
-        path: public.zip
-        env-url: FOOBAR
-
-    - name: Use URL for something
-      run: whoami
+        name: astrotour-devel
+        path: astrotour-devel
 
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@v0.1.4  
@@ -37,4 +33,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-                cd astrotours-hugo-devel && curl -v -H "Authorization: token ${{ secrets.MY_TOKEN }}" https://api.github.com/repos/uoftgasa/astrotours-website/actions/artifacts >> respond.txt
+                rm astrotour-devel.zip && wget https://nightly.link/uoftgasa/astrotours-website/workflows/hugo-devel/hugo/astrotour-devel.zip && rm -rf astrotour-devel && unzip astrotour-devel.zip
