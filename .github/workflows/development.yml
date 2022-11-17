@@ -9,7 +9,22 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.105.0'
+
+    - name: Build
+      run: hugo --minify
+
+    - name: Upload build
+      uses: actions/upload-artifact@master
+      with:
+        name: astrotours-devel
+        path: public
+
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@v0.1.4  
       with:
@@ -18,4 +33,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-                cd astrotours-devel && git pull
+                rm -f astrotours-devel.zip && wget --no-check-certificate https://nightly.link/uoftgasa/astrotours-website/workflows/hugo-devel/hugo/astrotours-devel.zip && rm -rf astrotours-devel && mkdir astrotours-devel && unzip -q astrotours-devel.zip -d astrotours-devel
