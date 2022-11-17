@@ -22,8 +22,8 @@ jobs:
     - name: Upload build
       uses: actions/upload-artifact@master
       with:
-        name: astrotour-devel
-        path: astrotour-devel
+        name: astrotours-devel
+        path: astrotours-devel
 
     - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@v0.1.4  
@@ -33,4 +33,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-                rm astrotour-devel.zip && wget https://nightly.link/uoftgasa/astrotours-website/workflows/hugo-devel/hugo/astrotour-devel.zip && rm -rf astrotour-devel && unzip astrotour-devel.zip
+                rm astrotours-devel.zip && wget https://nightly.link/uoftgasa/astrotours-website/workflows/hugo-devel/hugo/astrotours-devel.zip && rm -rf astrotours-devel && unzip astrotours-devel.zip
