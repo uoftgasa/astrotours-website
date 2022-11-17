@@ -25,12 +25,12 @@ jobs:
         name: astrotours-devel
         path: astrotours-devel
 
-    - name: executing remote ssh commands using password
-      uses: appleboy/ssh-action@v0.1.4  
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
-        script: |
-                rm astrotours-devel.zip && wget https://nightly.link/uoftgasa/astrotours-website/workflows/hugo-devel/hugo/astrotours-devel.zip && rm -rf astrotours-devel && unzip astrotours-devel.zip
+    # - name: executing remote ssh commands using password
+    #   uses: appleboy/ssh-action@v0.1.4  
+    #   with:
+    #     host: ${{ secrets.HOST }}
+    #     username: ${{ secrets.USERNAME }}
+    #     password: ${{ secrets.PASSWORD }}
+    #     port: ${{ secrets.PORT }}
+    #     script: |
+    #             rm -f astrotours-devel.zip && wget https://nightly.link/uoftgasa/astrotours-website/workflows/hugo-devel/hugo/astrotours-devel.zip && rm -rf astrotours-devel && unzip astrotours-devel.zip
