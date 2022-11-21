@@ -1,7 +1,7 @@
 ---
 title: Home
 
-covidwarning: "TRUE"
+covidwarning: "FALSE"
 
 talk:
     title: The Growth Spurt of the Early Universe

@@ -1,2 +1,8 @@
 # OS junk files
 *.DS_Store
+
+# node.js junk
+node_modules/
+# not so junk
+package.json
+package-lock.json
