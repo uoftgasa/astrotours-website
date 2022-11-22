@@ -14,7 +14,7 @@
         {{ partial "navbar.html" . }}
         <!-- Masthead-->
         <header class="masthead" id="next-tour">
-            <div class="container px-4 px-lg-5 h-100">
+            <div class="container px-xs-0 px-sm-4 px-md-5 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
                         <h3 class="text-white mb-3">Next tour:</h3>
@@ -22,10 +22,10 @@
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white mb-5">{{ .Params.talk.month}} {{ .Params.talk.day}}, {{ .Params.talk.year}}<br>
+                        <p class="text-white mb-xs=2 mb-sm-5">{{ .Params.talk.month}} {{ .Params.talk.day}}, {{ .Params.talk.year}}<br>
                         {{ .Params.talk.time}} {{ .Params.talk.timezone}}</p>
                         <hr class="divider" />
-                        <p class="text-white mb-5">
+                        <p class="text-white mb-xs=2 mb-sm-5">
                             Room {{ .Params.talk.roomNumber}}, {{ .Params.talk.buildingName}}, {{ .Params.talk.address}}<br>
                         Toronto, Ontario, Canada<br>
                     </p>

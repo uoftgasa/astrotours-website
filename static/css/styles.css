@@ -10927,6 +10927,7 @@ hr.divider-light {
 
 header.masthead {
   height: 100vh;
+  min-height: 50rem;
   background: url("../img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -10939,7 +10940,7 @@ header.masthead h1, header.masthead .h1 {
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
-    min-height: 40rem;
+    min-height: 50rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
