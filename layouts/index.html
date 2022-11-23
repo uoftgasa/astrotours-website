@@ -5,16 +5,11 @@
     </head>
 
     <body id="page-top">
-      {{ if eq .Params.covidwarning "TRUE" }}
-      <div class="alert alert-warning d-none d-md-none d-lg-block" style="border-radius: 0 !important; margin: 0; line-height: 30px;" role="alert">
-        <center><i class='fas fa-exclamation-triangle' style="font-size: 20px; color:red"></i><strong>&nbsp;&nbsp; Important Message: </strong> In-person Astrotours are back but face masks are strongly recommended.</center>
-      </div>
-      {{ end }}
         <!-- Navigation-->
         {{ partial "navbar.html" . }}
         <!-- Masthead-->
         <header class="masthead" id="next-tour">
-            <div class="container px-4 px-lg-5 h-100">
+            <div class="container px-xs-0 px-sm-4 px-md-5 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
                         <h3 class="text-white mb-3">Next tour:</h3>
@@ -22,15 +17,15 @@
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white mb-5">{{ .Params.talk.month}} {{ .Params.talk.day}}, {{ .Params.talk.year}}<br>
+                        <p class="text-white mb-xs=2 mb-sm-5">{{ .Params.talk.month}} {{ .Params.talk.day}}, {{ .Params.talk.year}}<br>
                         {{ .Params.talk.time}} {{ .Params.talk.timezone}}</p>
                         <hr class="divider" />
-                        <p class="text-white mb-5">
+                        <p class="text-white mb-xs=2 mb-sm-5">
                             Room {{ .Params.talk.roomNumber}}, {{ .Params.talk.buildingName}}, {{ .Params.talk.address}}<br>
-                        Toronto, Ontario, Canada<br>
+                        Toronto, Ontario, Canada <a href={{ .Params.talk.googlemap}} target="_blank"><i class="fa-solid fa-map-location-dot fa-xl"></i></a><br>
                     </p>
 
-                        <a class="btn btn-primary btn-xl" href="#about">More detail</a>
+                        <a class="btn btn-primary btn-xl" href="#detail">More detail</a>
                         <br>
                         <br>
                         <br>
@@ -44,8 +39,12 @@
                 </div>
             </div>
         </header>
-
-        <section class="page-section bg-dark text-white" id="about">
+        {{ if eq .Params.covidwarning "TRUE" }}
+        <div class="alert alert-warning" style="border-radius: 0; margin: 0 !important" role="alert" id="detail">
+          <center><i class='fas fa-exclamation-triangle' style="font-size: 20px; color:orange"></i>&nbsp;&nbsp;<strong>Face masks are required in indoor campus space during AstroTours</strong></center>
+        </div>
+        {{ end }}
+        <section class="page-section bg-dark text-white" id="detail">
             <div class="container px-4 px-lg-5 text-center">
                 <h2 class="mb-4"><strong>Talk Abstract</strong></h2>
                 <p class="text-white-75 mb-4 justify-content">{{ .Params.talk.abstract}}</p>
@@ -62,8 +61,8 @@
                 <h2 class="text-center mt-0"><strong>About the Speaker</strong></h2>
                 <hr class="divider" />
                   <div class="row">
-                    <div class="col-lg-4 col-md-12 text-center order-first">
-                        <img class="mx-auto img-fluid rounded-circle" src="img/speaker.jpg" alt="Speaker" style="width:225px; height:225px"/>
+                    <div class="col-lg-4 col-md-12 text-center order-first mb-5">
+                        <img class="mx-auto img-fluid rounded-circle mb-3" src="img/speaker.jpg" alt="Speaker" style="width:225px; height:225px; object-fit: cover;"/>
                         <h4>{{ .Params.talk.speaker}}</h4>
                     </div>
                     <div class="col-lg-8 col-md-12 text-left order-lg-0 d-flex align-items-center">

@@ -10832,6 +10832,7 @@ html {
 
 body {
   width: 100%;
+  margin-top: 4.5rem;
 }
 
 .page-section {
@@ -10926,8 +10927,9 @@ hr.divider-light {
 }
 
 header.masthead {
-  height: 100vh;
-  background: url("../img/background.jpg");
+  height: calc(100vh - 4.5rem);
+  min-height: 40rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10936,11 +10938,13 @@ header.masthead {
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
+header.masthead h1, header.masthead .h1 {
+  font-size: 1.75rem;
+}
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
+    height: calc(100vh - 4.5rem);
     min-height: 40rem;
-    padding-top: 4.5rem;
     padding-bottom: 0;
   }
   header.masthead p {
@@ -10962,14 +10966,12 @@ header.masthead h1, header.masthead .h1 {
 }
 
 header.masthead2 {
-  background: url("../img/background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
   height: 125px;
-  margin-top: 4.5rem;
-  padding-top: 2.3rem;
 }
 header.masthead2 h1, header.masthead2 .h1 {
   font-size: 2.25rem;
@@ -10977,9 +10979,7 @@ header.masthead2 h1, header.masthead2 .h1 {
 @media (min-width: 992px) {
   header.masthead2 {
     height: 250px;
-    padding-top: 4.5rem;
     padding-bottom: 0;
-    margin-top: 4.5rem;
   }
   header.masthead2 p {
     font-size: 1.15rem;

@@ -33,4 +33,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-                rm -f astrotours.zip && wget --no-check-certificate --no-cache --no-cookies https://nightly.link/uoftgasa/astrotours-website/workflows/main/release/astrotours.zip && rm -rf astrotours && mkdir astrotours && unzip -q astrotours.zip -d astrotours
+                sh astrotours-artifact.sh &
