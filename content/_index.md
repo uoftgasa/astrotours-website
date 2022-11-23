@@ -4,21 +4,26 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: The Growth Spurt of the Early Universe
-    speaker: Simran Nerval
-    month: November
-    day: 3
+    title: "Seeding the Elements and Measuring the Universe: The Supernova Mystery at the Heart of Astrophysics"
+    speaker: Chris Ni (he/him)
+    month: Decembers
+    day: 1
     year: 2022
     time: 20:00
     timezone: EST
-    buildingName: McLennan Physical Laboratories
-    buildingCode: MP
-    roomNumber: 202
-    address: 60 St. George Street
+    buildingName: Wallberg Building
+    buildingCode: WB
+    roomNumber: 116
+    address: 184 College St
+    googlemap: https://goo.gl/maps/Np9iWEkhha3Y6Nk69
+    # buildingName: McLennan Physical Laboratories
+    # buildingCode: MP
+    # roomNumber: 202
+    # address: 60 St. George Street
     ticket: None
-    abstract: Inflation is a time period where the universe underwent exponential expansion in a fraction of a second after the Big Bang. One of the most compelling reasons we believe inflation happened is because the universe looks the same everywhere at large scales. We can image the electromagnetic radiation of the universe all the way back from when it was about 380,000 years old which is known as the Cosmic Microwave Background (CMB). Inflation can cause changes to this electromagnetic radiation because it produces gravitational waves! Many telescopes are looking for this signal in the CMB in order to determine exactly what happened in the earliest moments of the universe. In this talk I will explain the motivation for inflation, how it produces gravitational waves, and how we can detect these signals in the CMB.
-    speakerInfo: Simran Nerval is a PhD candidate at the Dunlap Institute for Astronomy and Astrophysics and Department of Astronomy and Astrophysics at the University of Toronto. She studies a time period know as inflation, the exponential expansion of the universe within a fraction of a second after the Big Bang. Simran received her Honours Bachelor of Science in Physics and Astronomy from the University of Toronto and her Master of Science in Astroparticle Physics and Cosmology from Queen's University. Alongside her research she spends a lot of time running outreach events with the IDEAS (Innovation, Diversity, Exploration & Advancement in STEM) Initiative and AstroTours in order to promote enthusiasm for science in youth and advocate for diversity. In her free time, she is an aspiring baker, baking everything from loaves of bread to decorated cakes!
-    imageCredit: Andreus/iStock
-    source: https://www.skyatnightmagazine.com/space-science/expansion-universe/
+    abstract: Type Ia Supernovae are the thermonuclear explosions of dead stars known as White Dwarfs. The elements in the Universe are evolving steadily towards iron in a process that is largely driven by Type Ia Supernovae. These supernovae are also used to measure the distances to faraway galaxies, a technique that has lead to the discovery of the Universe's accelerated expansion and dark energy. Thus, the ongoing mystery of how White Dwarfs explode as Type Ia Supernovae is one that underpins much of modern astrophysics. I am going to discuss what we know so far about the origins of Type Ia Supernovae and how the continuous monitoring of nearby galaxies by a networks of telescopes in the Southern hemisphere is shedding new light on Type Ia Supernova explosion mechanisms.
+    speakerInfo: Chris Ni is a PhD candidate in the Department of Astronomy and Astrophysics at the University of Toronto. He hunts for the earliest signals heralding the birth of supernovae, from just a few hours to days after their explosion, in order to study their natal mechanisms. Chris received his Honors Bachelors of Science specializing in astrophysics from the University of Toronto. Aside from research, Chris often sets up his telescope on sidewalks around the city in order to share his enthusiasm for astronomy. Chris was featured in the Toronto Star in 2014 as one of the 5-person Canadian national team that won the International Olympiad for Astronomy and Astrophysics Team Competition in Romania.
+    imageCredit: Lucy Wang, University of Toronto
+    source: 
 ---
 

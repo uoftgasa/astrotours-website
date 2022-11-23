@@ -4,8 +4,11 @@
 
 header.masthead {
     height: 100vh;
-    min-height: 50rem;
-    background: url("../img/background.jpg");
+    min-height: 45rem;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), url("../img/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -15,9 +18,15 @@ header.masthead {
         font-size: 2.25rem;
     }
 
+    @include media-breakpoint-down(xs) {
+        h1 {
+            font-size: 1.75rem;
+        }
+    }    
+
     @include media-breakpoint-up(lg) {
         height: 100vh;
-        min-height: 50rem;
+        min-height: 45rem;
         padding-top: $navbar-height;
         padding-bottom: 0;
 
@@ -49,7 +58,10 @@ header.masthead {
 // 
 
 header.masthead2 {
-    background: url("../img/background.jpg");
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), url("../img/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
