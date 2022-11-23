@@ -6,7 +6,7 @@ covidwarning: "FALSE"
 talk:
     title: "Seeding the Elements and Measuring the Universe: The Supernova Mystery at the Heart of Astrophysics"
     speaker: Chris Ni (he/him)
-    month: Decembers
+    month: December
     day: 1
     year: 2022
     time: 20:00
