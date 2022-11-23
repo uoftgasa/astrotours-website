@@ -3,8 +3,8 @@
 // 
 
 header.masthead {
-    height: 100vh;
-    min-height: 45rem;
+    height: calc(100vh - $navbar-height);
+    min-height: 40rem;
     background: linear-gradient(
         rgba(0, 0, 0, 0.6), 
         rgba(0, 0, 0, 0.6)
@@ -25,9 +25,9 @@ header.masthead {
     }    
 
     @include media-breakpoint-up(lg) {
-        height: 100vh;
-        min-height: 45rem;
-        padding-top: $navbar-height;
+        height: calc(100vh - $navbar-height);
+        min-height: 40rem;
+        // padding-top: $navbar-height;
         padding-bottom: 0;
 
         p {
@@ -67,8 +67,8 @@ header.masthead2 {
     background-attachment: scroll;
     background-size: cover;
     height: 125px;
-    margin-top: $navbar-height;
-    padding-top: 2.3rem;
+    // margin-top: $navbar-height;
+    // padding-top: 2.3rem;
 
     h1 {
         font-size: 2.25rem;
@@ -76,9 +76,9 @@ header.masthead2 {
 
     @include media-breakpoint-up(lg) {
         height: 250px;
-        padding-top: $navbar-height;
+        // padding-top: $navbar-height;
         padding-bottom: 0;
-        margin-top: $navbar-height;
+        // margin-top: $navbar-height;
 
         p {
             font-size: 1.15rem;

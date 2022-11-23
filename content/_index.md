@@ -1,7 +1,7 @@
 ---
 title: Home
 
-covidwarning: "FALSE"
+covidwarning: "TRUE"
 
 talk:
     title: "Seeding the Elements and Measuring the Universe: The Supernova Mystery at the Heart of Astrophysics"
