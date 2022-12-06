@@ -17,7 +17,7 @@ jobs:
         hugo-version: '0.107.0'
 
     - name: Build
-      run: hugo --minify
+      run: hugo  --minify
 
     - name: Upload build
       uses: actions/upload-artifact@master
@@ -33,4 +33,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-                hohup ./astrotours-artifact.sh &
+                nohup ./astrotours-artifact.sh &
