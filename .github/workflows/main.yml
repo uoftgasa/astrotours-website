@@ -33,4 +33,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-                nohup ./astrotours-artifact.sh &
+                nohup ./astrotours-artifact.sh </dev/null &>/dev/null &
