@@ -23,3 +23,7 @@ We use scss to build the CSS stylesheet for the website. It makes it easier to, 
 1. Do ``git checkout release``
 1. And then ``git merge master`` to merge the ``release`` branch with the development ``master`` branch
 1. Finally you can push the ``release`` branch to github, wait >~5 minutes and the updated websiteshould be on http://www.astro.utoronto.ca/astrotours/
+
+## Location tbd and Time tbd
+
+You can still update the website even without the location and time confirmed, by setting `time_tbd` and `location_tbd` to `True` in _index.md under content

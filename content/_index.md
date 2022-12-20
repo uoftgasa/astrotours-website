@@ -4,11 +4,13 @@ title: Home
 covidwarning: "TRUE"
 
 talk:
-    title: "Seeding the Elements and Measuring the Universe: The Supernova Mystery at the Heart of Astrophysics"
-    speaker: Chris Ni (he/him)
-    month: December
-    day: 1
-    year: 2022
+    title: "Exploring our Milky Way Galaxy with Deep Learning"
+    speaker: Henry Leung (he/him)
+    time_tbd: False
+    location_tbd: False
+    month: January
+    day: 12
+    year: 2023
     time: 20:00
     timezone: EST
     buildingName: Wallberg Building
@@ -16,14 +18,9 @@ talk:
     roomNumber: 116
     address: 184 College St
     googlemap: https://goo.gl/maps/Np9iWEkhha3Y6Nk69
-    # buildingName: McLennan Physical Laboratories
-    # buildingCode: MP
-    # roomNumber: 202
-    # address: 60 St. George Street
     ticket: None
-    abstract: Type Ia Supernovae are the thermonuclear explosions of dead stars known as White Dwarfs. The elements in the Universe are evolving steadily towards iron in a process that is largely driven by Type Ia Supernovae. These supernovae are also used to measure the distances to faraway galaxies, a technique that has lead to the discovery of the Universe's accelerated expansion and dark energy. Thus, the ongoing mystery of how White Dwarfs explode as Type Ia Supernovae is one that underpins much of modern astrophysics. I am going to discuss what we know so far about the origins of Type Ia Supernovae and how the continuous monitoring of nearby galaxies by a networks of telescopes in the Southern hemisphere is shedding new light on Type Ia Supernova explosion mechanisms.
-    speakerInfo: Chris Ni is a PhD candidate in the Department of Astronomy and Astrophysics at the University of Toronto. He hunts for the earliest signals heralding the birth of supernovae, from just a few hours to days after their explosion, in order to study their natal mechanisms. Chris received his Honors Bachelors of Science specializing in astrophysics from the University of Toronto. Aside from research, Chris often sets up his telescope on sidewalks around the city in order to share his enthusiasm for astronomy. Chris was featured in the Toronto Star in 2014 as one of the 5-person Canadian national team that won the International Olympiad for Astronomy and Astrophysics Team Competition in Romania.
-    imageCredit: Lucy Wang, University of Toronto
-    source: 
+    abstract: Our Milky Way is the only galaxy in the universe we can study in detail on a star-by-star basis, thus essential to constraint theory of galaxy formation in general. Stars serve as fossil records which we can reconstruct the Galaxy evolution and formation history with stellar ages, chemical abundances and orbits. There are multiple large-scale surveys like SDSS and Gaia making observations on stars within our Galaxy, producing big publicly available datasets. Deep learning refers to the use of artificial neural networks inspired by human brain, often doing machine learning tasks traditional algorithm cannot. In this talk, I will discuss how we use deep learning to accurately measure properties of stars from these big datasets, and to explore our own Galaxy with the measurements done by our neural network models.
+    speakerInfo: Henry Leung is a fourth year PhD candidate at the Department of Astronomy & Astrophysics at the University of Toronto. His research focuses on applying deep learning methods to further the understanding of our Milky Way Galaxy. Henry previously completed his bachelor’s degree at the University of Toronto in astronomy and astrophysics. In his free time, you can find him wishing for clear skies to do some amateur astrophotography, hiking and camping.
+    imageCredit: OpenAI/DALL-E 2 AI generated image
 ---
 
