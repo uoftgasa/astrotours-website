@@ -18,11 +18,20 @@
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white mb-2 mb-sm-5">{{ .Params.talk.month}} {{ .Params.talk.day}}, {{ .Params.talk.year}}<br>
-                        {{ .Params.talk.time}} {{ .Params.talk.timezone}}</p>
+                            {{ if not .Params.talk.location_tbd }}
+                        {{ .Params.talk.time}} {{ .Params.talk.timezone}}
+                        {{ else }}
+                        Time TBD
+                        {{ end }}
+                    </p>
                         <hr class="divider" />
                         <p class="text-white mb-2 mb-sm-5">
+                        {{ if not .Params.talk.location_tbd }}
                             Room {{ .Params.talk.roomNumber}}, {{ .Params.talk.buildingName}}, {{ .Params.talk.address}}<br>
                         Toronto, Ontario, Canada <a href={{ .Params.talk.googlemap}} target="_blank"><i class="fa-solid fa-map-location-dot fa-xl"></i></a><br>
+                        {{ else }}
+                        Location TBD in Toronto, Ontario, Canada
+                        {{ end }}
                     </p>
 
                         <a class="btn btn-primary btn-xl" href="#detail">More detail</a>
@@ -41,7 +50,7 @@
         </header>
         {{ if eq .Params.covidwarning "TRUE" }}
         <div class="alert alert-warning" style="border-radius: 0; margin: 0 !important" role="alert" id="detail">
-          <center><i class='fas fa-exclamation-triangle' style="font-size: 20px; color:orange"></i>&nbsp;&nbsp;<strong>Face masks are required in indoor campus space during AstroTours</strong></center>
+          <center><i class='fas fa-exclamation-triangle' style="font-size: 20px; color:orange"></i>&nbsp;&nbsp;<strong>Face masks are strongly recommended in indoor campus space during AstroTours</strong></center>
         </div>
         {{ end }}
         <section class="page-section bg-dark text-white" id="detail">
