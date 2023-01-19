@@ -15,7 +15,10 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: 'latest'
-
+    - name: Build Bootstrap CSS
+      run: |
+        npm i bootstrap autoprefixer upath sass shelljs
+        node src/build-scss.js
     - name: Build
       run: hugo --minify
 
@@ -33,4 +36,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-                nohup ./astrotours-devel-artifact.sh </dev/null &>/dev/null &
+                nohup bash -x ./astrotours-devel-artifact.sh </dev/null &>/dev/null &
