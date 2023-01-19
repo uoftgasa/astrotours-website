@@ -6,3 +6,4 @@ node_modules/
 # not so junk
 package.json
 package-lock.json
+static/css/styles.css

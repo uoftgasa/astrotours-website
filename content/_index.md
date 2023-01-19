@@ -4,12 +4,12 @@ title: Home
 covidwarning: "TRUE"
 
 talk:
-    title: "Exploring our Milky Way Galaxy with Deep Learning"
-    speaker: Henry Leung (he/him)
+    title: "The Pan-African School for Emerging Astronomers"
+    speaker: Margaret Ikape (she/her)
     time_tbd: False
     location_tbd: False
-    month: January
-    day: 12
+    month: February
+    day: 2
     year: 2023
     time: 20:00
     timezone: EST
@@ -19,8 +19,8 @@ talk:
     address: 184 College St
     googlemap: https://goo.gl/maps/Np9iWEkhha3Y6Nk69
     ticket: None
-    abstract: Our Milky Way is the only galaxy in the universe we can study in detail on a star-by-star basis, thus essential to constraint theory of galaxy formation in general. Stars serve as fossil records which we can reconstruct the Galaxy evolution and formation history with stellar ages, chemical abundances and orbits. There are multiple large-scale surveys like SDSS and Gaia making observations on stars within our Galaxy, producing big publicly available datasets. Deep learning refers to the use of artificial neural networks inspired by human brain, often doing machine learning tasks traditional algorithm cannot. In this talk, I will discuss how we use deep learning to accurately measure properties of stars from these big datasets, and to explore our own Galaxy with the measurements done by our neural network models.
-    speakerInfo: Henry Leung is a fourth year PhD candidate at the Department of Astronomy & Astrophysics at the University of Toronto. His research focuses on applying deep learning methods to further the understanding of our Milky Way Galaxy. Henry previously completed his bachelor’s degree at the University of Toronto in astronomy and astrophysics. In his free time, you can find him wishing for clear skies to do some amateur astrophotography, hiking and camping.
-    imageCredit: OpenAI/DALL-E 2 AI generated image
+    abstract: The Pan-African School for Emerging Astronomers (PASEA) is a short course in astronomy for university students and teachers from across Africa, designed and taught by a collaboration of astronomers from Africa, North America and Australia. Our goals include building a critical mass of astronomers across Africa, and exchanging ideas about teaching and learning between Africa and abroad. PASEA started in West Africa in 2013, where it was known as WAISSYA, and has held four times in Nigeria and Ghana. 2022 was an exciting year for PASEA, as we expanded to become a Pan-African program, and held our first school in southern Africa in Zambia in October. We also held our first online program for PASEA alumni on remote observing, programming, and data science. In this talk, I’ll highlight some of the activities in the school, our successes and lessons learned, and ideas for the next school.
+    speakerInfo: Margaret Ikape is a PhD candidate in the department of Astronomy and Astrophysics, University of Toronto. Having attended PASEA in past years, she is now a PASEA undergraduate stream instructor. She also helped organise the PASEA mentorship program, a platform to connect PASEA students with professional astronomers around the world. Her interest in astronomy started at a very young age and that interest has been sustained by the numerous unknowns in the universe. Her current work tries to understand the nature of the early universe using simulated data.
+    imageCredit: PASEA team
 ---
 
