@@ -1,7 +1,7 @@
 ---
 title: Home
 
-covidwarning: "TRUE"
+covidwarning: "FALSE"
 
 talk:
     title: "The Pan-African School for Emerging Astronomers"
