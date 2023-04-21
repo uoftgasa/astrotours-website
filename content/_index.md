@@ -4,12 +4,12 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "The Pan-African School for Emerging Astronomers"
-    speaker: Margaret Ikape (she/her)
+    title: "Mapping our universe in millimeter: what have we learned?"
+    speaker: Yilun Guan (he/him/his)
     time_tbd: False
     location_tbd: False
-    month: February
-    day: 2
+    month: May
+    day: 4
     year: 2023
     time: 20:00
     timezone: EST
@@ -19,8 +19,8 @@ talk:
     address: 184 College St
     googlemap: https://goo.gl/maps/Np9iWEkhha3Y6Nk69
     ticket: None
-    abstract: The Pan-African School for Emerging Astronomers (PASEA) is a short course in astronomy for university students and teachers from across Africa, designed and taught by a collaboration of astronomers from Africa, North America and Australia. Our goals include building a critical mass of astronomers across Africa, and exchanging ideas about teaching and learning between Africa and abroad. PASEA started in West Africa in 2013, where it was known as WAISSYA, and has held four times in Nigeria and Ghana. 2022 was an exciting year for PASEA, as we expanded to become a Pan-African program, and held our first school in southern Africa in Zambia in October. We also held our first online program for PASEA alumni on remote observing, programming, and data science. In this talk, I’ll highlight some of the activities in the school, our successes and lessons learned, and ideas for the next school.
-    speakerInfo: Margaret Ikape is a PhD candidate in the department of Astronomy and Astrophysics, University of Toronto. Having attended PASEA in past years, she is now a PASEA undergraduate stream instructor. She also helped organise the PASEA mentorship program, a platform to connect PASEA students with professional astronomers around the world. Her interest in astronomy started at a very young age and that interest has been sustained by the numerous unknowns in the universe. Her current work tries to understand the nature of the early universe using simulated data.
-    imageCredit: PASEA team
+    abstract: Mapping the sky in millimeter has revolutionized our understanding of the universe, allowing us to probe its early history, explore its fundamental building blocks, and study the magnetic field morphology of our galaxy. In this talk, I will discuss the latest breakthroughs in millimeter sky mapping and their implications for our understanding of cosmology and astrophysics.
+    speakerInfo: Yilun Guan completed his PhD in millimeter astronomy at the University of Pittsburgh and is now a postdoctoral fellow at the Dunlap Institute of Astrophysics and Astronomy, University of Toronto. His research focuses on making precise maps of the millimeter sky and extracting cosmology and astrophysics from the data from the Atacama Cosmology Telescope. In his free time, you can find him teaching cosmology to his cats.
+    imageCredit: Pablo Carlos Budassi/Wikimedia
 ---
 
