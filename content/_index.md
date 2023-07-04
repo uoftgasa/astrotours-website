@@ -4,12 +4,12 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "A Rookie's Guide to a DIY Star"
-    speaker: Eesha Das Gupta (she/her)
+    title: "How to make a planet (and why it shouldn’t work)"
+    speaker: Taylor Kutra (she/her)
     time_tbd: False
     location_tbd: False
-    month: June
-    day: 1
+    month: July
+    day: 20
     year: 2023
     time: 20:30
     timezone: EST
@@ -19,8 +19,8 @@ talk:
     address: 184 College St
     googlemap: https://goo.gl/maps/Np9iWEkhha3Y6Nk69
     ticket: None
-    abstract: Recreating your object of study in a lab experiment serves as excellent testing grounds for any scientific theory and is a staple of most sciences. But what do you do if your object of study is an extremely large, immensely hot ball of radiating gas that is near impossible to recreate in a lab on Earth? Well, you can just make a computer model of it! This talk is a handy guide for the rookie scientist and science enthusiast — it will walk you through the basics of making a star from scratch.  This guide is your peek into the world of modelling and simulations and how they contribute to cutting edge astronomy research.
-    speakerInfo: Eesha Das Gupta is a PhD student at the Department of Astronomy & Astrophysics at the University of Toronto. She works on making computer simulations of stars to study how they rotate and how they would interact with companion stars. Eesha previously received her Bachelor’s degree in physics from Drexel University in Philadelphia. In her free time Eesha enjoys reading, drawing, and introducing people to niche subcultures.
-    imageCredit: Eesha Das Gupta/@stelllararts
+    abstract: "The story we tell about how planets form is usually quite simple: planets are made of the debris left over from star formation. Little dust particles conglomerate into pebbles, which eventually coalesce into rocks, which get bigger and bigger until you end up with a planet. Thats it, right? For this AstroTours, we are going to explore the process of planet formation and talk about what happens when physics tells you one thing, but reality tells you the opposite."
+    speakerInfo: Taylor is a PhD Candidate in the Department of Astronomy and Astrophysics at the University of Toronto. Her research focuses on the birthplace of planets, the proto-planetary disk and she is generally interested in how the protoplanetary disk can affect the planets that eventually form from it. Taylor did her Bachelors degree at Quest University Canada and, after her defence in a couple of weeks, will continue this work as a postdoctoral fellow at Lowell Observatory. Taylor also works on various outreach and community initiatives and is a strong advocate for creating inclusive spaces within astronomy. When she isn't doing astronomy, she loves to spend her time outside with her rescue dog, Shanty.
+    imageCredit: Sean Andrews/DSHARP/ALMA
 ---
 
