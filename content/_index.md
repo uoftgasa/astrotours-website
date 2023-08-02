@@ -4,23 +4,23 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "How to make a planet (and why it shouldn’t work)"
-    speaker: Taylor Kutra (she/her)
+    title: "Physics at the End of the Universe"
+    speaker: "Dr. Katie Mack (she/her)"
     time_tbd: False
     location_tbd: False
-    month: July
-    day: 20
+    month: August
+    day: 24
     year: 2023
     time: 20:30
     timezone: EST
-    buildingName: Wallberg Building
-    buildingCode: WB
-    roomNumber: 116
-    address: 184 College St
-    googlemap: https://goo.gl/maps/Np9iWEkhha3Y6Nk69
+    buildingName: Earth Science Building
+    buildingCode: ES
+    roomNumber: 1050
+    address: 5 Bancroft Avenue
+    googlemap: https://goo.gl/maps/suwYdF7AK1K7w4LK9
     ticket: None
-    abstract: "The story we tell about how planets form is usually quite simple: planets are made of the debris left over from star formation. Little dust particles conglomerate into pebbles, which eventually coalesce into rocks, which get bigger and bigger until you end up with a planet. Thats it, right? For this AstroTours, we are going to explore the process of planet formation and talk about what happens when physics tells you one thing, but reality tells you the opposite."
-    speakerInfo: Taylor is a PhD Candidate in the Department of Astronomy and Astrophysics at the University of Toronto. Her research focuses on the birthplace of planets, the proto-planetary disk and she is generally interested in how the protoplanetary disk can affect the planets that eventually form from it. Taylor did her Bachelors degree at Quest University Canada and, after her defence in a couple of weeks, will continue this work as a postdoctoral fellow at Lowell Observatory. Taylor also works on various outreach and community initiatives and is a strong advocate for creating inclusive spaces within astronomy. When she isn't doing astronomy, she loves to spend her time outside with her rescue dog, Shanty.
-    imageCredit: Sean Andrews/DSHARP/ALMA
+    abstract: The Big Bang theory tells the story of the beginning of the Universe, our cosmic home for the last 13.8 billion years. But how does the story end? I’ll share what modern astrophysics tells us about the ultimate fate of the cosmos, and what the catastrophic destruction of all reality would look like to anyone still around to see it.
+    speakerInfo: Dr. Katie Mack is a theoretical astrophysicist exploring a range of questions in cosmology, the study of the universe from beginning to end. She currently holds the position of Hawking Chair in Cosmology and Science Communication at the Perimeter Institute for Theoretical Physics, where she carries out research on dark matter and the early universe and works to make physics more accessible to the general public. She is the author of the book “The End of Everything (Astrophysically Speaking)” and has written for a number of popular publications, such as Scientific American, Slate, Sky & Telescope, Time, and Cosmos magazine. She can be found on Twitter as @AstroKatie.
+    imageCredit: Katie Mack
 ---
 
