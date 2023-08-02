@@ -11,7 +11,7 @@ talk:
     month: August
     day: 24
     year: 2023
-    time: 20:30
+    time: 19:00
     timezone: EST
     buildingName: Earth Science Building
     buildingCode: ES
