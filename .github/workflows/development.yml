@@ -20,7 +20,7 @@ jobs:
         npm i bootstrap autoprefixer upath sass shelljs
         node src/build-scss.js
     - name: Build
-      run: hugo --minify
+      run: hugo
 
     - name: Upload build
       uses: actions/upload-artifact@master
