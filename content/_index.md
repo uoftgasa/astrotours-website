@@ -6,8 +6,8 @@ covidwarning: "FALSE"
 talk:
     title: "What the Biggest Things in the Universe Can Tell Us About the Oldest and Smallest Things"
     speaker: "Nathan Carlson (he/him)"
-    time_tbd: True
-    location_tbd: True
+    time_tbd: False
+    location_tbd: False
     month: December
     day: 6
     year: 2023
