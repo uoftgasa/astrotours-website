@@ -4,22 +4,22 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "The Past, Present and Future of Star Clusters with Milky Way GEMS"
-    speaker: "Steffani Grondin (she/her)"
+    title: "What the Biggest Things in the Universe Can Tell Us About the Oldest and Smallest Things"
+    speaker: "Nathan Carlson (he/him)"
     time_tbd: False
     location_tbd: False
-    month: November
-    day: 2
+    month: December
+    day: 6
     year: 2023
     time: 20:00
     timezone: EST
-    buildingName: Bahen Centre for Information Technology
-    buildingCode: BA
-    roomNumber: 1160
-    address: 40 St George St
-    googlemap: https://maps.app.goo.gl/6Rx76NA7RvvKrSho7
+    buildingName: McLennan Physical Laboratories
+    buildingCode: MP
+    roomNumber: 202
+    address: 255 Huron Street
+    googlemap: https://maps.app.goo.gl/jfSSkzsFdWPrBHEi7
     ticket: None
-    abstract: Globular clusters are collections of tens of thousands to millions of stars and are some of the densest environments and oldest objects in the entire universe. Although almost every star you see in the night sky was once a part of a clustered environment, stars will not live in a cluster forever. As time goes on, stars can escape from globular clusters, eventually becoming dispersed throughout the Galaxy. However, how do stars escape from a cluster in the first place? And once a star escapes, how do you trace it back to its parent cluster? In this AstroTour, we will explore how new simulations of Galactic GEMS (Globular cluster Extra-tidal Mock Stars) can inform the past, present and future of the most ancient structures in our Milky Way.
-    speakerInfo: Steffani is a PhD Candidate in the Department of Astronomy and Astrophysics at the University of Toronto. Her research combines simulations and observations to learn how stars and binaries evolve in star clusters -- cosmic environments containing hundreds to millions of stars. Steffani grew up in a small mountain town before moving to Vancouver to receive her Honours Bachelor of Science at the University of British Columbia. Outside of astronomy, Steffani can often be found exploring the outdoors, training for her next marathon/triathlon, or adding to her ever-expanding vinyl record collection.
-    imageCredit: NASA/ESA/Hubble/G. Piotto et al.
+    abstract: Cosmology is an area of astrophysics research that focusses on the formation and evolution of every structure in the universe. This covers an enormous range of scales from microscopic quantum fluctuations in the early universe to the stars which those fluctuations formed to galaxies of millions or trillions of stars to the interconnected spider web-like network of galaxies and galaxy clusters that stretches across the observable universe in what we call the Cosmic Web. To understand all of these structures, we need to study the entire history of the universe from its origin nearly 14 billion years ago to today. In this sense, cosmology really is like the theory of everything for astrophysics. In my research, I connect all of these scales, using simulations of the largest structures in the universe, the Cosmic Web, to study inflation, an exotic period very early in the universe during which tiny quantum fluctuations lay the seeds for the stars and galaxies that fill our universe today.
+    speakerInfo: Nathan is 5th year PhD candidate in the Department of Physics and at the Canadian Institute for Theoretical Astrophysics at the University of Toronto.  His research focusses on simulating the distribution of energy in the early Universe to model the evolution of large scale structure (the clumping together of galaxies over cosmic time) in order to better understand the epoch of inflation (a period of time when the very early Universe expanded very, very rapidly).  Nathan was born and raised in Ottawa, completing his BSc in Physics at UOttawa before coming to UofT to start his PhD.  In his free time, Nathan is very outdoorsy, and likes to do things outside, like hiking and canoeing.  In fact, Nathan has seen at least four different species of wild deer.
+    imageCredit: Nathan Carlson
 ---
