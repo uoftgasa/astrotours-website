@@ -4,22 +4,22 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "What the Biggest Things in the Universe Can Tell Us About the Oldest and Smallest Things"
-    speaker: "Nathan Carlson (he/him)"
+    title: "The Gaia space telescope reveals the galaxy collision that shaped the Milky Way"
+    speaker: "James Lane (he/him)"
     time_tbd: False
     location_tbd: False
-    month: December
-    day: 6
+    month: January
+    day: 11
     year: 2023
     time: 20:00
     timezone: EST
     buildingName: McLennan Physical Laboratories
     buildingCode: MP
-    roomNumber: 202
+    roomNumber: 102
     address: 255 Huron Street
     googlemap: https://maps.app.goo.gl/jfSSkzsFdWPrBHEi7
     ticket: None
-    abstract: Cosmology is an area of astrophysics research that focusses on the formation and evolution of every structure in the universe. This covers an enormous range of scales from microscopic quantum fluctuations in the early universe to the stars which those fluctuations formed to galaxies of millions or trillions of stars to the interconnected spider web-like network of galaxies and galaxy clusters that stretches across the observable universe in what we call the Cosmic Web. To understand all of these structures, we need to study the entire history of the universe from its origin nearly 14 billion years ago to today. In this sense, cosmology really is like the theory of everything for astrophysics. In my research, I connect all of these scales, using simulations of the largest structures in the universe, the Cosmic Web, to study inflation, an exotic period very early in the universe during which tiny quantum fluctuations lay the seeds for the stars and galaxies that fill our universe today.
-    speakerInfo: Nathan is 5th year PhD candidate in the Department of Physics and at the Canadian Institute for Theoretical Astrophysics at the University of Toronto.  His research focusses on simulating the distribution of energy in the early Universe to model the evolution of large scale structure (the clumping together of galaxies over cosmic time) in order to better understand the epoch of inflation (a period of time when the very early Universe expanded very, very rapidly).  Nathan was born and raised in Ottawa, completing his BSc in Physics at UOttawa before coming to UofT to start his PhD.  In his free time, Nathan is very outdoorsy, and likes to do things outside, like hiking and canoeing.  In fact, Nathan has seen at least four different species of wild deer.
-    imageCredit: Nathan Carlson
+    abstract: The Milky Way galaxy, our home, is one of billions of galaxies scattered throughout the Universe. A fundamental quest in astrophysics is to determine how these galaxies, and our Milky Way in particular, have formed and evolved over cosmic time. The Gaia Space Telescope measures the motions of individual stars in the Milky Way, data which is crucial for establishing its past and present nature. One of the most surprising discoveries of this new era of data is that the Milky Way collided with another galaxy nearly 10 billion years ago. In this talk I will explain how astronomers work like archaeologists, using remnants of this collision that we can detect today using data from the Gaia Space Telescope, to piece together the circumstances of this collision between two young galaxies which established our Milky Way.
+    speakerInfo: James is a PhD candidate at the University of Toronto. James studies our Milky Way galaxy using data from the Gaia Space Telescope. James is from Victoria, BC, where he got his undergraduate degree from the University of Victoria. In his spare time James enjoys cycling, reading about history, and hiking.
+    imageCredit: Wikipedia
 ---
