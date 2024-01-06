@@ -10,7 +10,7 @@ talk:
     location_tbd: False
     month: January
     day: 11
-    year: 2023
+    year: 2024
     time: 20:00
     timezone: EST
     buildingName: McLennan Physical Laboratories
