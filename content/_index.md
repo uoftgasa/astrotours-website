@@ -13,6 +13,9 @@ talk:
     year: 2024
     time: 20:00
     timezone: EST
+    buildingName: TBD
+    buildingCode: TBD
+    roomNumber: TBD
     address: TBD
     ticket: None
     abstract: Are we made of star stuff? The short answer, yes. The chemical elements that make us up, like carbon and iron, are created during the life and death of stars. In this AstroTour, we’ll dive into the long answer. We’ll explore the origin of "star stuff" (how elements are made, where it happens, and how we know) and answer questions like, where does carbon come from? Why is there a lot more lead than gold? And what are those weird elements at the bottom of the periodic table?
