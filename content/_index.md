@@ -7,7 +7,7 @@ talk:
     title: "The Gaia space telescope reveals the galaxy collision that shaped the Milky Way"
     speaker: "James Lane (he/him)"
     time_tbd: False
-    location_tbd: False
+    location_tbd: True
     month: January
     day: 11
     year: 2024
