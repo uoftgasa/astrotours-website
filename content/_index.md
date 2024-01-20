@@ -8,8 +8,8 @@ talk:
     speaker: "Mairead Heiger (she/her)"
     time_tbd: False
     location_tbd: True
-    month: January
-    day: 11
+    month: February
+    day: 1
     year: 2024
     time: 20:00
     timezone: EST
