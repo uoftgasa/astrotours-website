@@ -4,22 +4,22 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "The Origin of (most of) the Elements"
-    speaker: "Mairead Heiger (she/her)"
+    title: "The Gaia space telescope reveals the galaxy collision that shaped the Milky Way"
+    speaker: "James Lane (he/him)"
     time_tbd: False
     location_tbd: False
-    month: February
-    day: 1
+    month: January
+    day: 11
     year: 2024
     time: 20:00
     timezone: EST
     buildingName: McLennan Physical Laboratories
     buildingCode: MP
-    roomNumber: TBD
+    roomNumber: 102
     address: 255 Huron Street
     googlemap: https://maps.app.goo.gl/jfSSkzsFdWPrBHEi7
     ticket: None
-    abstract: Are we made of star stuff? The short answer: yes. The chemical elements that make us up, like carbon and iron, are created during the life and death of stars. In this AstroTour, we’ll dive into the long answer. We’ll explore the origin of “star stuff” (how elements are made, where it happens, and how we know) and answer questions like, where does carbon come from? Why is there a lot more lead than gold? And what are those weird elements at the bottom of the periodic table?
-    speakerInfo: Mairead is a graduate student in the Department of Astronomy & Astrophysics at the University of Toronto. She studies how a galaxy’s chemical makeup changes over time, which can help us understand things like the how stars form and the nature of supernovae. Mairead uses observations to decode the chemical history of small, ancient galaxies that orbit the Milky Way. Originally from Pennsylvania, Mairead completed her Bachelor’s degree there at the University of Pittsburgh. Outside of work, she spends most of her free time teaching her dog useless tricks.
-    imageCredit: Supernova illustration: Akihiro Ikeshita/Particle CG: Naotsugu Mikami (NAOJ)
+    abstract: The Milky Way galaxy, our home, is one of billions of galaxies scattered throughout the Universe. A fundamental quest in astrophysics is to determine how these galaxies, and our Milky Way in particular, have formed and evolved over cosmic time. The Gaia Space Telescope measures the motions of individual stars in the Milky Way, data which is crucial for establishing its past and present nature. One of the most surprising discoveries of this new era of data is that the Milky Way collided with another galaxy nearly 10 billion years ago. In this talk I will explain how astronomers work like archaeologists, using remnants of this collision that we can detect today using data from the Gaia Space Telescope, to piece together the circumstances of this collision between two young galaxies which established our Milky Way.
+    speakerInfo: James is a PhD candidate at the University of Toronto. James studies our Milky Way galaxy using data from the Gaia Space Telescope. James is from Victoria, BC, where he got his undergraduate degree from the University of Victoria. In his spare time James enjoys cycling, reading about history, and hiking.
+    imageCredit: Wikipedia
 ---
