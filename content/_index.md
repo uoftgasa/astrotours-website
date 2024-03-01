@@ -5,7 +5,7 @@ covidwarning: "FALSE"
 
 talk:
     title: "Don’t get caught in the dark! Everything you need to engage with the April 8 2024 Total Solar Eclipse"
-    speaker: "Charles J. Woodford (he/him/his)"
+    speaker: "Charles J. Woodford (he/him)"
     time_tbd: False
     location_tbd: False
     month: March
