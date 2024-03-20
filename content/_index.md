@@ -11,7 +11,7 @@ talk:
     month: March
     day: 21
     year: 2024
-    time: 20:00
+    time: 19:30
     timezone: EST
     buildingName: Myhal Center
     buildingCode: MY
