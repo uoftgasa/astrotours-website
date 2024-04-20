@@ -4,22 +4,22 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "Don’t get caught in the dark! Everything you need to engage with the April 8 2024 Total Solar Eclipse"
-    speaker: "Charles J. Woodford (he/him)"
+    title: "And then there was (more) light: The violent births of stars"
+    speaker: "Shivan Khullar (he/him)"
     time_tbd: False
     location_tbd: False
-    month: March
-    day: 21
+    month: May
+    day: 2
     year: 2024
-    time: 19:30
+    time: 21:00
     timezone: EST
-    buildingName: Myhal Center
-    buildingCode: MY
-    roomNumber: 150
-    address: 55 St. George Street
-    googlemap: https://maps.app.goo.gl/Rbmf4RypGviU6Mhw5
+    buildingName: McLennan Physical Laboratories
+    buildingCode: MP
+    roomNumber: 102
+    address: 255 Huron Street
+    googlemap: https://maps.app.goo.gl/jfSSkzsFdWPrBHEi7
     ticket: None
-    abstract: For the first time in decades, Eastern and Atlantic Canada will find themselves cast beneath the shadow of the Moon on April 8, 2024. As the Moon passes directly between the Earth and the Sun, it will create a total solar eclipse, completely blocking the Sun from view for a few spectacular minutes. This is truly a once-in-a-lifetime event for Ontario, Quebec, and the Atlantic provinces, as the next total solar eclipse over eastern Canada will be in 2079, and 2106 after that! Toronto is unfortunately not in the path of totality, but will instead be treated to a spectacular partial solar eclipse. This talk will provide key safety information for observing the Sun and eclipses safely, the science behind eclipses, and how you can engage yourself and your community with the eclipse.
-    speakerInfo: CJ works on delivering science and astronomy content in accessible, friendly formats as the Education Coordinator for Discover the Universe by leading webinars, building presentation files to share with teachers, and designing classroom activities. He graduated with his PhD in physics from the University of Toronto in 2020 and works full time as a Research Associate at the University of Victoria with the World Data System International Technology Office. He lives in Amherstview, Ontario with his partner and wonderful dog, Chip.
-    imageCredit: Discover the Universe
+    abstract: Stars are the building blocks of our universe. The light they produce dictates how galaxies and planetary systems evolve. A star's mass at birth dictates how it will evolve. Stars are forged in stellar nurseries that are huge clouds of gas and dust. Star formation is a difficult process to observe, so we often rely on simulations to provide us with clues about how stars form. In this AstroTour, we will explore how stars form out of interstellar gas and how stars of different kinds live out their lives.
+    speakerInfo: Shivan is a PhD candidate at the University of Toronto. His research focuses on the birthplaces of stars, giant molecular clouds. He performs simulations run on supercomputers to try to gain insight into the physical processes that drive the evolution of these stellar nurseries. Outside of research, Shivan enjoys hiking, playing and watching soccer, watching documentaries and dabbling in photography. 
+    imageCredit: JWST/STScI
 ---
