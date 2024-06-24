@@ -4,12 +4,12 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "And then there was (more) light: The violent births of stars"
-    speaker: "Shivan Khullar (he/him)"
+    title: "Magnetars: How do we study the strongest magnets in the universe?"
+    speaker: "Jonathan Zhang (He/Him)"
     time_tbd: False
-    location_tbd: False
-    month: May
-    day: 2
+    location_tbd: True
+    month: July
+    day: 4
     year: 2024
     time: 21:00
     timezone: EST
@@ -19,7 +19,7 @@ talk:
     address: 255 Huron Street
     googlemap: https://maps.app.goo.gl/jfSSkzsFdWPrBHEi7
     ticket: None
-    abstract: Stars are the building blocks of our universe. The light they produce dictates how galaxies and planetary systems evolve. A star's mass at birth dictates how it will evolve. Stars are forged in stellar nurseries that are huge clouds of gas and dust. Star formation is a difficult process to observe, so we often rely on simulations to provide us with clues about how stars form. In this AstroTour, we will explore how stars form out of interstellar gas and how stars of different kinds live out their lives.
-    speakerInfo: Shivan is a PhD candidate at the University of Toronto. His research focuses on the birthplaces of stars, giant molecular clouds. He performs simulations run on supercomputers to try to gain insight into the physical processes that drive the evolution of these stellar nurseries. Outside of research, Shivan enjoys hiking, playing and watching soccer, watching documentaries and dabbling in photography. 
-    imageCredit: JWST/STScI
+    abstract: Known as the most powerful magnets in the universe, magnetars are one of the most mysterious objects in space. Formed after the death of a star, magnetars use these powerful magnetic fields to emit a wide range of signals that can be seen across the galaxy. Understanding these emission processes requires understanding physics over a wide range of sizes and strengths. In this talk, I will cover how we can simplify these physics to model magnetars in simulations, and match the signals that we observe. 
+    speakerInfo: Jonathan is a 5th year PhD candidate in the Department of Physics at the University of Toronto, and works at the Canadian Institute for Theoretical Astrophysics. His research includes modelling the plasma around magnetars, and characterizing signals of dark matter with new interactions. Originally from Vancouver, Jonathan completed his undergrad in physics and mathematics at the University of British Columbia. When not studying physics, he can be found lifting heavy objects in mercifully air-conditioned spaces.
+    imageCredit: ESO/L. Calçada
 ---
