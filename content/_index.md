@@ -7,7 +7,7 @@ talk:
     title: "Magnetars: How do we study the strongest magnets in the universe?"
     speaker: "Jonathan Zhang (He/Him)"
     time_tbd: False
-    location_tbd: True
+    location_tbd: False
     month: July
     day: 4
     year: 2024
