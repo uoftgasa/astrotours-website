@@ -23,3 +23,4 @@ talk:
     speakerInfo: Dr Becky Smethurst is an award-winning astrophysicist and science communicator at the University of Oxford, specialising in how galaxies co-evolve with their supermassive black holes. Her YouTube channel, Dr Becky, has over 750,000 subscribers who engage with her videos on weird objects in space, the history of science, and monthly recaps of space news. Her latest book, A Brief History of Black Holes, was described by BBC's Sky at Night magazine as "A jaunt through space history . . .with charming wit and many pop-culture references".
     imageCredit: Wikipedia
 ---
+
