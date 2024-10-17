@@ -11,7 +11,7 @@ talk:
     month: October
     day: 24
     year: 2024
-    time: 19:00
+    time: 18:00
     timezone: EST
     buildingName: Myhal Centre
     buildingCode: MY
