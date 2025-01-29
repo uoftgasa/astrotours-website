@@ -4,13 +4,13 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "What our Sun can teach us about the plasma-filled universe"
-    speaker: "Tanisha Ghosal (she/her)"
+    title: "What can we learn about the Universe from its baby picture?"
+    speaker: "Simran Nerval (she/her)"
     time_tbd: False
     location_tbd: False
-    month: December
-    day: 5
-    year: 2024
+    month: February
+    day: 6
+    year: 2025
     time: 19:00
     timezone: EST
     buildingName: McLennan Physical Laboratories
@@ -19,7 +19,7 @@ talk:
     address: 255 Huron Street
     googlemap: https://maps.app.goo.gl/jfSSkzsFdWPrBHEi7
     ticket: None
-    abstract: Our Sun, the vital source of energy that sustains life on Earth, can also serve as a key to understanding the plasma-filled universe around us. Starting with insights from solar physics and laboratory plasmas, we can unravel the fundamental mechanisms that govern plasma behaviour and apply them to various astrophysical contexts. From advanced space probes to sophisticated computational models, we'll discuss the tools that help us decode the plasma dynamics shaping the environment of our Sun, along with the environments of neutron stars, black holes, and the broader universe.
-    speakerInfo: Tanisha Ghosal (she/her) is a graduate student in the Department of Physics at the University of Toronto, working at the Canadian Institute for Theoretical Astrophysics. She completed her undergraduate degree in Physics & Astronomy at the University of Waterloo and currently works with numerical simulations to simulate astrophysical plasmas. Outside of research, she enjoys watching movies, walking around the city, and reading Wikipedia articles!
-    imageCredit: NASA Scientific Visualization Studio
+    abstract: 
+    speakerInfo: Simran Nerval (she/her) is a PhD candidate at The Dunlap Institute for Astronomy and Astrophysics and The David A. Dunlap Department of Astronomy and Astrophysics at the University of Toronto. She studies a time period known as inflation, the exponential expansion of the universe within a fraction of a second after the Big Bang. She uses a combination of theory, computer simulations, and data analysis to determine constraints on inflationary models. Simran received her Honours Bachelor of Science in Physics and Astronomy from the University of Toronto and her Master of Science in Astroparticle Physics and Cosmology from Queen’s University. Alongside her research, she works on various outreach and EDI initiatives including coding and astronomy camps for high school students with Coding the Cosmos in order to promote enthusiasm for science in youth and advocate for diversity. In her free time, she is an aspiring baker, baking everything from loaves of bread to decorated cakes! 
+    imageCredit: Planck Collaboration (2018)
 ---
