@@ -15,7 +15,7 @@ talk:
     timezone: EST
     buildingName: McLennan Physical Laboratories
     buildingCode: MP
-    roomNumber: 102
+    roomNumber: 103
     address: 255 Huron Street
     googlemap: https://maps.app.goo.gl/jfSSkzsFdWPrBHEi7
     ticket: None
