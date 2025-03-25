@@ -7,7 +7,7 @@ talk:
     title: "Live Fast, Die Young: The first stars and their lasting impact on our Universe"
     speaker: "Sam Berek (she/her)"
     time_tbd: False
-    location_tbd: True
+    location_tbd: False
     month: April
     day: 3
     year: 2025
