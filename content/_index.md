@@ -4,22 +4,22 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "Live Fast, Die Young: The first stars and their lasting impact on our Universe"
-    speaker: "Sam Berek (she/her)"
+    title: "Fast Radio Bursts: Cosmic Fireworks Light up the Universe"
+    speaker: "Ayush Pandhi (he/him)"
     time_tbd: False
     location_tbd: False
-    month: April
-    day: 3
+    month: May
+    day: 1
     year: 2025
     time: 20:00
     timezone: EST
-    buildingName: McLennan Physical Laboratories
-    buildingCode: MP
-    roomNumber: 102
-    address: 255 Huron Street
-    googlemap: https://maps.app.goo.gl/jfSSkzsFdWPrBHEi7
+    buildingName: Wallberg Memorial Building
+    buildingCode: WB
+    roomNumber: 116
+    address: 184 College St
+    googlemap: https://maps.app.goo.gl/u5pSbAX4g4PjjPpw5
     ticket: None
-    abstract: "Today, our universe consists of trillions of galaxies, each of which contains billions of stars and planets just like our own Solar System. But how did it come to be this way? In this talk, we will travel 13.7 billion years into the past, when the universe was just a dense soup of particles. As it began to expand and cool, something incredible happened: clumps of gas collapsed into the first stars, which lit up the universe. These first stars were far bigger and hotter than our Sun. They burned through their fuel thousands of times faster, and ended their lives in some of the biggest explosions in the history of the universe. I will dive into our theories on this first population of stars, including how their deaths left remnants that became the material for the objects that now populate our universe. Finally, I will show how we may soon be able to observe these stars for the first time with the James Webb Space Telescope."
-    speakerInfo: "Sam Berek (she/her) is a 5th year graduate student in the Department of Astronomy and Astrophysics at the University of Toronto, and a fellow of the Data Sciences Institute. Her research focuses on characterizing star formation in the early universe. She uses both nearby, old stellar populations as probes of earlier times, as well as direct observations of some of the first galaxies in the universe. Her research is in the interdisciplinary field of astrostatistics, and she develops novel statistical methodologies to analyze data. Originally from New Jersey, Sam completed her undergraduate degree in astrophysics and anthropology at Yale University. In her free time, you can usually find her in the middle of a long cooking project."
-    imageCredit: Adolf Schaller for STScI (artist rendition)
+    abstract: "The Universe is brimming with violent and energetic explosions, from volcanic eruptions here on Earth to the explosive deaths of massive stars across the Milky Way and in other galaxies. Many of these short-lived explosions (or “transients”) come from some of the most extreme objects in the Universe such as neutron stars and black holes. Astronomers recently discovered a new type of transient, fast radio bursts (FRBs), which release the same amount of energy in less than a millisecond as the Sun will produce in a whole year. Despite nearly two decades of research, we are still not sure what objects produce these mysterious FRBs. In this talk, I will walk through a catalog of transients originating from Earth to our Solar System and far beyond. I will also discuss the discovery of FRBs, our hunt to figure out how they’re made, and what FRBs can tell us about otherwise “invisible” parts of the Universe."
+    speakerInfo: "S Ayush (he/him) is a 5th year PhD candidate in the Department of Astronomy and Astrophysics at the University of Toronto and an NSERC Canada Graduate Scholar. He is from the Greater Toronto Area and also completed his undergraduate degree from the University of Toronto with a specialist in Physics and Astronomy. Ayush uses a wide array of radio telescopes around the world, including the Canadian Hydrogen Intensity Mapping Experiment here in Canada, to study explosions of radio light coming from billions of light years away. His research aims to understand how extreme objects, such as neutron stars and black holes, produce outbursts of energy."
+    imageCredit: "Danielle Futselaar (artsource.nl)"
 ---
