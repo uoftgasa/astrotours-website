@@ -4,12 +4,12 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "Unearthing Stellar Fossils of our Galactic History"
-    speaker: "Ronan Kerr"
+    title: "Black Holes and Their Environments"
+    speaker: "Alicia Savelli"
     time_tbd: False
     location_tbd: False
-    month: August
-    day: 7
+    month: September
+    day: 4
     year: 2025
     time: 20:00
     timezone: EST
@@ -19,7 +19,7 @@ talk:
     address: 184 College St
     googlemap: https://maps.app.goo.gl/u5pSbAX4g4PjjPpw5
     ticket: None
-    abstract: "Thousands of stellar nurseries called molecular clouds are distributed throughout our galaxy, where dense gas is actively collapsing to form new stars. Observations of these clouds provide an exquisite view of their structures and dynamics, although they cannot reveal the larger processes that guide the assembly of molecular clouds out of diffuse gas. Young stars preserve the history of the parent molecular cloud by inheriting its properties, leaving behind a fossil record of cloud evolution that persists for tens of millions of years after formation. The Gaia spacecraft has observed nearly 2 billion stars in our galaxy, and with this treasure trove of new observations, we are now able to harness this fossil record to reveal the processes that guide local star formation, from supernovae to stellar winds to collisions between interstellar clouds, and study how these processes interact to produce the wealth of star-forming environments seen in our galaxy. In this talk, I will discuss recent advancements to the study of star formation over tens of million-year timescales and explain how those discoveries can inform the structure of the galaxy we live in, and even the environment where our solar system formed."
-    speakerInfo: "Originally from Vancouver, Ronan recently joined the Dunlap Institute at the University of Toronto as a research fellow after completing his PhD at the University of Texas at Austin. He is frequently involved in astronomy outreach, which has included operating the telescopes at many past AstroTours events. Outside of academia, he enjoys stargazing, astrophotography, exploring new places both out in nature and overseas, playing video games, and DnD."
-    imageCredit: ""
+    abstract: "What is a black hole?  How does it form?  Why does it look like that?  Will it turn me into spaghetti?  Black holes are one of the most alluring astronomical objects, inspiring many science fiction stories and sparking intrigue in space enthusiasts.  Astronomers are just as interested in black holes as you — if not more!   Black holes are home to some of the most extreme environments in the Universe, resulting in a lot of fascinating physics on scales as small as subatomic particles and as large as entire galaxies.  In this talk, we will not only answer common black hole curiosities such as these, but also delve into how astronomers use black holes to study the limits of physics and evolution of the Universe!"
+    speakerInfo: "Alicia is a PhD candidate at the University of Toronto and Canadian Institute for Theoretical Astrophysics.  She writes down analytical theories and runs simulations of the gas that falls into black holes  to find out what makes them “shine”.  Before starting her PhD, Alicia was a high school physics and maths teacher, but still has a strong passion for trying to make science easier to reach for everyone.  Outside of research, Alicia is usually listening to Taylor Swift and hanging out with her cat."
+    imageCredit: "NASA/JPL-Caltech"
 ---
