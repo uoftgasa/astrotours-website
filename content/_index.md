@@ -20,6 +20,6 @@ talk:
     googlemap: https://maps.app.goo.gl/j2dWbJyvoKLnEZLw8
     ticket: None
     abstract: "Small planets with masses and radii similar to the Earth are the most common category of planet in the Milky Way, and they are also the most difficult to study. Four years into the launch of the James Webb Space Telescope we are peering closer than ever before at our rockiest exoplanetary neighbors. These efforts have uncovered roasting airless surfaces, frustrating contamination by stellar hosts, and puzzling instrumental effects. Decoding what it all means, and whether these worlds host atmospheres that may be hospitable to life, is an active area of research, sometimes with more questions than answers. Come enjoy a journey to our closest rocky neighbors orbiting curious M dwarf stars."
-    speakerInfo: "I am an Assistant Astronomer at Space Telescope Science Institute. I characterize small exoplanet atmospheres with ground- and space-based observatories. I am the PI of the Hot Rocks Survey, a large program on the James Webb Space Telescope to test 9 terrestrial exoplanets orbiting nearby M dwarfs for atmospheres."
+    speakerInfo: "I am an Assistant Astronomer at Space Telescope Science Institute. I characterize small exoplanet atmospheres with ground- and space-based observatories. I am the PI of the Hot Rocks Survey, a large program on the James Webb Space Telescope to test 9 terrestrial exoplanets orbiting nearby M dwarfs for atmospheres. "
     imageCredit: "NASA/JPL-Caltech/MSSS"
 ---
