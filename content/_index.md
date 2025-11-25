@@ -4,22 +4,22 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "Hot rocks and host stars: revelations of rocky exoplanets in the era of the James Webb Space Telescope"
-    speaker: "Hannah Diamond-Lowe"
+    title: The Hidden Millimeter Universe
+    speaker: Eleonora Barbavara
     time_tbd: False
     location_tbd: False
-    month: October
-    day: 23
+    month: December
+    day: 4
     year: 2025
     time: 19:00
     timezone: EST
-    buildingName: Earth Science Building
-    buildingCode: ES
-    roomNumber: 1050
-    address: 22 Ursula Franklin St
-    googlemap: https://maps.app.goo.gl/j2dWbJyvoKLnEZLw8
+    buildingName: Lassonde Mining Building
+    buildingCode: MB
+    roomNumber: 128
+    address: 170 College Street
+    googlemap: https://maps.app.goo.gl/rmbYt2b9agG59Zhb9
     ticket: None
-    abstract: "Small planets with masses and radii similar to the Earth are the most common category of planet in the Milky Way, and they are also the most difficult to study. Four years into the launch of the James Webb Space Telescope we are peering closer than ever before at our rockiest exoplanetary neighbors. These efforts have uncovered roasting airless surfaces, frustrating contamination by stellar hosts, and puzzling instrumental effects. Decoding what it all means, and whether these worlds host atmospheres that may be hospitable to life, is an active area of research, sometimes with more questions than answers. Come enjoy a journey to our closest rocky neighbors orbiting curious M dwarf stars."
-    speakerInfo: "I am an Assistant Astronomer at Space Telescope Science Institute. I characterize small exoplanet atmospheres with ground- and space-based observatories. I am the PI of the Hot Rocks Survey, a large program on the James Webb Space Telescope to test 9 terrestrial exoplanets orbiting nearby M dwarfs for atmospheres."
-    imageCredit: "NASA/JPL-Caltech/MSSS"
+    abstract: Our everyday perception of light is limited to the visible radiation, which is only a small segment of the vast electromagnetic spectrum, that spans from high-energy waves as X-rays, UV and visible waves to low-energy radio/millimetre waves. The phenomena and physical effects we can observe fundamentally change depending on the frequency band used. In this contribution, a comparison between science achievable in the higher-frequency bands with that of the lower-frequency regime will be made, detailing on how the instrumentation required for observations dramatically changes, contrasting the design of traditional optical telescopes with the engineering of large radio telescopes and arrays. In addition, the unique scientific cases addressed by the latter will be discussed, as studying large-scale structures of the Cosmic Web and extracting crucial cosmological information from the observation of the Cosmic Microwave Background (CMB), in order to establish a cosmological model that will fully describe the Universe.
+    speakerInfo: Eleonora Barbavara is a PhD student in Astronomy, Astrophysics, and Space Science at Sapienza University of Rome, Italy. Her work is divided between instrumentation, observational strategy development and integration of MISTRAL, a new high angular resolution millimeter camera at the Sardinia Radio Telescope, and data analysis of galaxy clusters. As a member of the Atacama Cosmology Telescope (ACT) and the Simons Observatory (SO) collaborations, Eleonora analyzes data to investigate the nature of the Cosmic Web, and also to search for the Anomalous Microwave Background in both galactic and extragalactic sources.
+    imageCredit: Millennium simulation
 ---
