@@ -4,22 +4,22 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: The Hidden Millimeter Universe
-    speaker: Eleonora Barbavara
+    title: Using AI to turn data into discoveries
+    speaker: Nolan Koblischke
     time_tbd: False
     location_tbd: False
-    month: December
-    day: 4
-    year: 2025
+    month: February
+    day: 5
+    year: 2026
     time: 19:00
     timezone: EST
-    buildingName: Lassonde Mining Building
-    buildingCode: MB
-    roomNumber: 128
-    address: 170 College Street
-    googlemap: https://maps.app.goo.gl/rmbYt2b9agG59Zhb9
+    buildingName: Leslie Dan Faculty of Pharmacy
+    buildingCode: PB
+    roomNumber: 150
+    address: 144 College St
+    googlemap: https://maps.app.goo.gl/WFSX1uYoHsUTycCM6
     ticket: None
-    abstract: Our everyday perception of light is limited to the visible radiation, which is only a small segment of the vast electromagnetic spectrum, that spans from high-energy waves as X-rays, UV and visible waves to low-energy radio/millimetre waves. The phenomena and physical effects we can observe fundamentally change depending on the frequency band used. In this contribution, a comparison between science achievable in the higher-frequency bands with that of the lower-frequency regime will be made, detailing on how the instrumentation required for observations dramatically changes, contrasting the design of traditional optical telescopes with the engineering of large radio telescopes and arrays. In addition, the unique scientific cases addressed by the latter will be discussed, as studying large-scale structures of the Cosmic Web and extracting crucial cosmological information from the observation of the Cosmic Microwave Background (CMB), in order to establish a cosmological model that will fully describe the Universe.
-    speakerInfo: Eleonora Barbavara is a PhD student in Astronomy, Astrophysics, and Space Science at Sapienza University of Rome, Italy. Her work is divided between instrumentation, observational strategy development and integration of MISTRAL, a new high angular resolution millimeter camera at the Sardinia Radio Telescope, and data analysis of galaxy clusters. As a member of the Atacama Cosmology Telescope (ACT) and the Simons Observatory (SO) collaborations, Eleonora analyzes data to investigate the nature of the Cosmic Web, and also to search for the Anomalous Microwave Background in both galactic and extragalactic sources.
-    imageCredit: Millennium simulation
+    abstract: New telescopes are generating more data than astronomers could examine in a thousand lifetimes. The Vera Rubin Observatory will soon image the entire southern sky every few nights, flagging millions of changes that might be new supernovae, asteroids, or phenomena never seen before. The Euclid Space Telescope is imaging over a billion galaxies, including those displaying gravitational lensing and tidal streams, where larger galaxies have ripped apart smaller ones. AI has become an essential tool for keeping up with the incoming data, and we'll look at how it is used to reveal these "needles in the haystack". We'll also discuss where AI falls short, and why astronomers still need to be in the loop. If you've ever wondered whether AI is genuinely useful or pure hype, you'll leave with a clear answer.
+    speakerInfo: Nolan Koblischke is a PhD candidate in Astrophysics at the University of Toronto. His research is on using AI to make sense of astronomy data, and is currently focused on finding faint tidal streams in massive galaxy image catalogues. Nolan is passionate about ensuring that no discovery goes missed when there's too much data and too few astronomers. He grew up near Kelowna, BC, and outside of research spends his time watching movies and debating whether to return to BC for the skiing.
+    imageCredit: Pierre-Alain Duc
 ---
