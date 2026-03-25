@@ -4,7 +4,7 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: The Ultimate Zoom Lens: An Unusual Way of Capturing Photos of Exploding Stars
+    title: "The Ultimate Zoom Lens: An Unusual Way of Capturing Photos of Exploding Stars"
     speaker: Mattias Lazda
     time_tbd: False
     location_tbd: False
