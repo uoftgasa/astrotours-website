@@ -10,21 +10,19 @@ event:
     day: 23
     year: 2026
     time: 20:00
-    timezone: EST
+    timezone: EDT
     buildingName: McLennan Physical Laboratories
     buildingCode: MP
     roomNumber: 103
     address: 255 Huron St
     googlemap: https://maps.app.goo.gl/Vxg2C8jCNuDnfCn3A
     imageCredit: David Boettger
-    format:
-        - "Three talks from Simons Observatory researchers, each ~15 minutes, followed by a ~30 minute panel of field experts with public Q&A."
-        - "Post-talk activities include demonstrations, lab tours, and telescope observing opportunities."
+    format: 'Three talks from Simons Observatory researchers, each ~15 minutes, followed by a ~30 minute panel of field experts with public Q&A.<br>The panel Q&A session will consist of a mix of pre-submitted and in-person questions. Questions can be submitted via this <a href="https://forms.gle/Sq9USahZjv1ftKX26" target="_blank">form</a>.<br>Post-talk activities include demonstrations, lab tours, and telescope observing opportunities.<br><br>Our speakers for the evening are Bernardita Ried Guachalla, Fiona McCarthy, and Alex Manduca.<br>We will also be joined by panelists Elle Shaw, Simon Biquard, Carmen Embil Villarga, and Tony Mroczkowski.<br><br>More information to follow soon!'
     partner:
         name: the Simons Observatory
         logo: partner.jpg
         banner: partner_banner.jpg
-        about: "High in the Atacama Desert of Northern Chile, in one of the highest and driest places on Earth, sits the Simons Observatory. This incredible facility uses a team of advanced telescopes to capture the oldest light in the cosmos: the Cosmic Microwave Background, which is the leftover glow from the Big Bang itself. By mapping this ancient radiation, the scientists in the Simons Observatory Collaboration are essentially looking back in time to the first moments of the universe. Their goal is to use this data to answer some of the biggest questions in science: How did the universe begin? What exactly is dark matter? What can ghost-like particles called neutrinos tell us about how the cosmos evolved into what we see today? How did galaxies form?"
+        about: 'High in the Atacama Desert of Northern Chile, in one of the highest and driest places on Earth, sits the Simons Observatory. This incredible facility uses a team of advanced telescopes to capture the oldest light in the cosmos: the Cosmic Microwave Background, which is the leftover glow from the Big Bang itself. By mapping this ancient radiation, the scientists in the Simons Observatory Collaboration are essentially looking back in time to the first moments of the universe. Their goal is to use this data to answer some of the biggest questions in science: How did the universe begin? What exactly is dark matter? What can ghost-like particles called neutrinos tell us about how the cosmos evolved into what we see today? How did galaxies form?<br><br>For more information on the Simons Observatory, please visit their website <a href="https://simonsobservatory.org/" target="_blank">here</a>.'
     # talks:
     #     -
     #         title: Tides throughout the Universe
