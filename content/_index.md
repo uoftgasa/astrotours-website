@@ -25,7 +25,13 @@ event:
         about: 'High in the Atacama Desert of Northern Chile, in one of the highest and driest places on Earth, sits the Simons Observatory. This incredible facility uses a team of advanced telescopes to capture the oldest light in the cosmos: the Cosmic Microwave Background, which is the leftover glow from the Big Bang itself. By mapping this ancient radiation, the scientists in the Simons Observatory Collaboration are essentially looking back in time to the first moments of the universe. Their goal is to use this data to answer some of the biggest questions in science: How did the universe begin? What exactly is dark matter? What can ghost-like particles called neutrinos tell us about how the cosmos evolved into what we see today? How did galaxies form?<br><br>For more information on the Simons Observatory, please visit their website <a href="https://simonsobservatory.org/" target="_blank">here</a>.'
     talks:
         -
-            title: Science from the Simons Observatory
+            title: "Seeing the Invisible Universe: How We Explore Cosmic Origins"
+            speaker: Bernardita Ried Guachalla
+            speakerImage: speaker3.jpg
+            speakerInfo: "Bernardita Ried Guachalla (Ph.D. Stanford University) is a Chilean astrophysicist whose research explores the origin and evolution of the universe through observations of the cosmic microwave background. She will soon begin a postdoctoral position at University of Cambridge, using data from the Simons Observatory to test cosmological models and study cosmic structure. Beyond research, she is also an advocate for the preservation of dark skies and public engagement with astronomy."
+            abstract: "The universe is filled with ancient light left over from the Big Bang, called the cosmic microwave background. This faint glow is the oldest light we can observe, carrying a snapshot of the universe when it was only 380,000 years old. Tiny patterns in the CMB reveal the seeds of the galaxies and cosmic structures we see today. Using observations from experiments including Planck, Atacama Cosmology Telescope, and the new Simons Observatory, cosmologists are mapping these signals with extraordinary precision to investigate the origin, composition, and evolution of the universe. In this talk, I will explore how studying the oldest light in the cosmos allows us to probe invisible matter, trace cosmic history, and piece together the story of how our universe began."
+        -
+            title: "Science from the Simons Observatory"
             speaker: Fiona McCarthy
             speakerImage: speaker1.jpg
             speakerInfo: "Fiona McCarthy is an observational cosmologist working at Cambridge University. She mostly works on combinations of early-Universe data with late Universe data in order to light up the late Universe with the light that is behind everything: the cosmic microwave background. She has previously been a research fellow in the Centre for Computational Astrophysics in New York City, and she received her PhD in physics and astronomy from Perimeter Institute/University of Waterloo. Her undergraduate degree was in Theoretical Physics from Trinity College Dublin. Outside of research, she likes cycling and reading fiction (among other things!)."
@@ -36,5 +42,4 @@ event:
             speakerImage: speaker2.jpg
             speakerInfo: "Alex is a PhD candidate in Physics & Astronomy at the University of Pennsylvania. His work focuses on designing, building, and deploying instrumentation for cosmology telescopes like the ground-based Simons Observatory and the balloon-borne Terahertz Intensity Mapper."
             abstract: "The Simons Observatory (SO) is a new set of state-of-the-art cosmology telescopes built to map the millimeter-wave sky with unprecedented sensitivity. Here we present an overview of the marvelous instrumentation SO uses to make ground-breaking discoveries in cosmology."
-    talksComingSoon: true
 ---

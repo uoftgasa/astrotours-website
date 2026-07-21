@@ -124,15 +124,9 @@
                                 <h5>{{ $talk.speaker }}</h5>
                             </div>
                             <div class="col-lg-8 col-md-12 text-left order-lg-0 d-flex align-items-center">
-                                <p class="text-white-75 mb-0 justify-content">{{ $talk.speakerInfo | markdownify }} </p>
+                                <p class="text-white-75 mb-0 justify-content sans-serif">{{ $talk.speakerInfo | markdownify }} </p>
                             </div>
                         </div>
-                    {{ end }}
-                    {{ if .Params.event.talksComingSoon }}
-                        <hr class="divider" />
-                        <h4 class="text-center mt-0">
-                            <strong>More details coming soon!</strong>
-                        </h4>
                     {{ end }}
                 </div>
             </section>
