@@ -4,22 +4,22 @@ title: Home
 covidwarning: "FALSE"
 
 talk:
-    title: "Searching For Common Interests: The Vera C. Rubin Observatory Story"
-    speaker: Nikki Noughani
+    title: "AstroTours Keynote"
+    speaker: Dr. Kerstin M. Perez
     time_tbd: False
     location_tbd: False
-    month: August
-    day: 6
+    month: October
+    day: 1
     year: 2026
     time: 20:00
     timezone: EDT
-    buildingName: McLennan Physical Laboratories
-    buildingCode: MP
-    roomNumber: 102
-    address: 255 Huron St
-    googlemap: https://maps.app.goo.gl/Vxg2C8jCNuDnfCn3A
+    buildingName: Medical Sciences Building
+    buildingCode: MS
+    roomNumber: 2158
+    address: 1 King's College Circle
+    googlemap: https://maps.app.goo.gl/D8gQcMyj8eT35Q1i6
     ticket: None
-    abstract: "This history of human astronomical discovery has long included tracking changes in the night sky, from ancient \"guest stars\" to researchers flipping between photographic plates by hand to today's automated nightly surveys. The year 2026 marked a giant leap in transient astronomy as the Vera C. Rubin Observatory began its decade long mapping of the night sky, and it's named for a scientist who, only half a century ago, changed everything we'd understood about our universe forever. Vera Rubin's measurements of galaxy rotation gave us the strongest evidence yet for dark matter, work that went largely unrecognized in her lifetime. Fittingly, the observatory named for her is built on the same instinct, to discover that which goes unseen, making it a perfect instrument to catch all manner of rare events for the first time. This includes common envelope mergers, where two stars spiral together and sometimes flash bright as a luminous red nova, in the act. Join us as we trace her path to that discovery, and look at the equally hidden discoveries this observatory is now positioned to make."
-    speakerInfo: "Dr. Nikki Noughani is a current Rubin Postdoctoral Fellow at the University of Toronto. She likes to say she is secretly a mathematician that snuck into the astrophysics department and never looked back. Her particular focus is on observational predictions for a type of stellar merger event called common envelope evolution, where one (often more massive) star engulfs a nearby companion. These are known to be fast and generally less energetic events when compared to a supernova explosion, but can be just as critical to understanding how stars break away from their usual evolutionary pathways. In her free time she loves to read, particularly anything by Agatha Christie, play with her pup Lily, and is attempting to learn how to sew!"
+    abstract: "To be announced"
+    speakerInfo: "To be announced"
     imageCredit: "Vera C. Rubin Observatory"
 ---
